@@ -8,15 +8,17 @@ def gics_hydrate():
         try:
             # 
             obj = json.loads(str(row['ClimateRiskMitigation']))
-            df.at[row.name,'ClimateRiskMitigation'] = str(obj)
+            row['ClimateRiskMitigation'] = str(obj).strip()
             row['ClimateRiskMitigation'] = row['ClimateRiskMitigation'].replace("'", "\"")
-            print(obj)
+            if row['ClimateRiskMitigation'][-1] != ']':
+                print(row['ClimateRiskMitigation'])
+                print(row['ClimateRiskMitigation'].strip())
+                count+=1
         except Exception as e: 
-            count+=1
+            # count+=1
             print(e)
-            print(row['SubIndustryDescription'])
     print(count)
-    print(df.head(10))
+    # print(df.head(10))
     df.to_csv('Gics_modified_gpt4_v2.csv')
 
 gics_hydrate()
