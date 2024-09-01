@@ -1,5 +1,5 @@
-,SectorId,Sector,IndustryGroupId,IndustryGroup,IndustryId,Industry,SubIndustryId,SubIndustry,SubIndustryDescription,Climate Risk,Climate Risk Mitigation
-0,10,Energy,1010,Energy,101010,Energy Equipment & Services,10101010,Oil & Gas Drilling,Drilling contractors or owners of drilling rigs that contract their services for drilling wells,,"[
+,SectorId,Sector,IndustryGroupId,IndustryGroup,IndustryId,Industry,SubIndustryId,SubIndustry,SubIndustryDescription,ClimateRiskMitigation
+0,10,Energy,1010,Energy,101010,Energy Equipment & Services,10101010,Oil & Gas Drilling,Drilling contractors or owners of drilling rigs that contract their services for drilling wells,"[
   {
     ""risk"": ""Higher frequency of extreme weather events"",
     ""mitigation"": ""Incorporate environmental hazard assessment into project planning and management.""
@@ -41,7 +41,7 @@
     ""mitigation"": ""Diversify business model and invest in renewable energy technologies.""
   }
 ]"
-1,10,Energy,1010,Energy,101010,Energy Equipment & Services,10101020,Oil & Gas Equipment & Services,"Manufacturers of equipment, including drilling rigs and equipment, and providers of supplies and services to companies involved in the drilling, evaluation and completion of oil and gas wells.",,"[
+1,10,Energy,1010,Energy,101010,Energy Equipment & Services,10101020,Oil & Gas Equipment & Services,"Manufacturers of equipment, including drilling rigs and equipment, and providers of supplies and services to companies involved in the drilling, evaluation and completion of oil and gas wells.","[
   {""risk"":""Increased costs due to carbon pricing initiatives"", 
    ""mitigation"":""Invest in renewable energy sources and energy-efficient technologies""},
 
@@ -69,7 +69,7 @@
   {""risk"":""Decreased demand for fossil fuels due to changing energy policy"", 
    ""mitigation"":""Invest in technology development and diversify business towards renewable energy sector""}
 ]"
-2,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102010,Integrated Oil & Gas,"Integrated oil companies engaged in the exploration & production of oil and gas, as well as at least one other significant activity in either refining, marketing and transportation, or chemicals.",,"[
+2,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102010,Integrated Oil & Gas,"Integrated oil companies engaged in the exploration & production of oil and gas, as well as at least one other significant activity in either refining, marketing and transportation, or chemicals.","[
     {
         ""risk"": ""Extreme weather events damaging infrastructure"",
         ""mitigation"": ""Invest in resilient infrastructure and disaster risk management systems""
@@ -111,7 +111,7 @@
         ""mitigation"": ""Develop a more diversified and climate resilient supply chain""
     }
 ]"
-3,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102020,Oil & Gas Exploration & Production,Companies engaged in the exploration and production of oil and gas not classified elsewhere.,,"[
+3,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102020,Oil & Gas Exploration & Production,Companies engaged in the exploration and production of oil and gas not classified elsewhere.,"[
   {
     ""risk"": ""Increased regulatory scrutiny on carbon emissions"",
     ""mitigation"": ""Investing in cleaner and renewable energy sources, reducing carbon footprint""
@@ -153,7 +153,7 @@
     ""mitigation"": ""Strategically divesting from fossil fuels and investing in renewable energy""
   }
 ]"
-4,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102030,Oil & Gas Refining & Marketing,"Companies engaged in the refining and marketing of oil, gas and/or refined products not classified in the Integrated Oil & Gas or Independent Power Producers & Energy Traders Sub-Industries.",,"[
+4,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102030,Oil & Gas Refining & Marketing,"Companies engaged in the refining and marketing of oil, gas and/or refined products not classified in the Integrated Oil & Gas or Independent Power Producers & Energy Traders Sub-Industries.","[
   {""risk"": ""Increased operational costs due to carbon pricing or emission fees"", 
     ""mitigation"": ""Investment in clean and renewable energy options to reduce carbon footprint""},
   
@@ -175,7 +175,7 @@
   {""risk"": ""Increased maintenance costs for infrastructures due to occasional weather changes"", 
     ""mitigation"": ""Performing regular preventative maintenance and higher-level investment in infrastructure robustness""}
 ]"
-5,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102040,Oil & Gas Storage & Transportation,"Companies engaged in the storage and/or transportation of oil, gas and/or refined products. Includes diversified midstream natural gas companies, oil and refined product pipelines, coal slurry pipelines and oil & gas shipping companies.",,"[
+5,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102040,Oil & Gas Storage & Transportation,"Companies engaged in the storage and/or transportation of oil, gas and/or refined products. Includes diversified midstream natural gas companies, oil and refined product pipelines, coal slurry pipelines and oil & gas shipping companies.","[
   {
     ""risk"": ""Impact of environmental regulation changes"",
     ""mitigation"": ""Keeping up to date with international, national, local legislation and policy to ensure compliance""
@@ -209,7 +209,7 @@
     ""mitigation"":""Assessing carbon-related assets for risk of stranding and creating a sustainable transition plan""
   }
 ]"
-6,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102050,Coal & Consumable Fuels,"Companies primarily involved in the production and mining of coal, related products and other consumable fuels related to the generation of energy. Excludes companies primarily producing gases classified in the Industrial Gases sub-industry and companies primarily mining for metallurgical (coking) coal used for steel production.",,"[
+6,10,Energy,1010,Energy,101020,"Oil, Gas & Consumable Fuels",10102050,Coal & Consumable Fuels,"Companies primarily involved in the production and mining of coal, related products and other consumable fuels related to the generation of energy. Excludes companies primarily producing gases classified in the Industrial Gases sub-industry and companies primarily mining for metallurgical (coking) coal used for steel production.","[
   {
     ""risk"": ""Increased regulations on greenhouse gas emissions"",
     ""mitigation"": ""Investment in cleaner and more efficient production technologies""
@@ -243,7 +243,7 @@
     ""mitigation"": ""Developing and implementing proactive risk management strategies""
   }
 ]"
-7,15,Materials,1510,Materials,151010,Chemicals,15101010,Commodity Chemicals,"Companies that primarily produce industrial chemicals and basic chemicals. Including but not limited to plastics, synthetic fibers, films, commodity-based paints & pigments, explosives and petrochemicals. Excludes chemical companies classified in the Diversified Chemicals, Fertilizers & Agricultural Chemicals, Industrial Gases, or Specialty Chemicals Sub-Industries.",,"[
+7,15,Materials,1510,Materials,151010,Chemicals,15101010,Commodity Chemicals,"Companies that primarily produce industrial chemicals and basic chemicals. Including but not limited to plastics, synthetic fibers, films, commodity-based paints & pigments, explosives and petrochemicals. Excludes chemical companies classified in the Diversified Chemicals, Fertilizers & Agricultural Chemicals, Industrial Gases, or Specialty Chemicals Sub-Industries.","[
     {""risk"": ""Extreme weather events damaging production facilities"", ""mitigation"": ""Implement severe weather monitoring and build stronger infrastructure""},
     {""risk"": ""Increased regulations on greenhouse gas emissions"", ""mitigation"": ""Invest in cleaner production techniques""},
     {""risk"": ""Water scarcity affecting manufacturing processes"", ""mitigation"": ""Develop and adopt water-efficient processes""},
@@ -258,7 +258,7 @@
     {""risk"": ""Increased insurance costs due to increased risks"", ""mitigation"": ""Implement risk reduction strategies and negotiate for better insurance premiums""}
 ]
 "
-8,15,Materials,1510,Materials,151010,Chemicals,15101020,Diversified Chemicals,"Manufacturers of a diversified range of chemical products not classified in the Industrial Gases, Commodity Chemicals, Specialty Chemicals or Fertilizers & Agricultural Chemicals Sub-Industries.",,"[
+8,15,Materials,1510,Materials,151010,Chemicals,15101020,Diversified Chemicals,"Manufacturers of a diversified range of chemical products not classified in the Industrial Gases, Commodity Chemicals, Specialty Chemicals or Fertilizers & Agricultural Chemicals Sub-Industries.","[
   {
     ""risk"": ""Production disruption due to extreme weather events"",
     ""mitigation"": ""Implementing robust disaster management and recovery plans""
@@ -300,7 +300,7 @@
     ""mitigation"": ""Investing in water efficiency and alternative water sourcing""
   }
 ]"
-9,15,Materials,1510,Materials,151010,Chemicals,15101030,Fertilizers & Agricultural Chemicals,"Producers of fertilizers, pesticides, potash or other agriculture-related chemicals not classified elsewhere.",,"[
+9,15,Materials,1510,Materials,151010,Chemicals,15101030,Fertilizers & Agricultural Chemicals,"Producers of fertilizers, pesticides, potash or other agriculture-related chemicals not classified elsewhere.","[
   {
     ""risk"": ""Increased greenhouse gas emissions from production processes"",
     ""mitigation"": ""Adopt cleaner and more energy-efficient production technologies""
@@ -342,7 +342,7 @@
     ""mitigation"": ""Implement sourcing strategies that prioritize sustainability""
   }
 ]"
-10,15,Materials,1510,Materials,151010,Chemicals,15101040,Industrial Gases,Manufacturers of industrial gases.,,"[
+10,15,Materials,1510,Materials,151010,Chemicals,15101040,Industrial Gases,Manufacturers of industrial gases.,"[
     {
         ""risk"": ""Disruption of gas production due to extreme weather events"",
         ""mitigation"": ""Investing in robust infrastructure and disaster response mechanisms""
@@ -376,7 +376,7 @@
         ""mitigation"": ""Active engagement with policymakers and regulators to comply with future regulations and understand emerging trends""
     }
 ]"
-11,15,Materials,1510,Materials,151010,Chemicals,15101050,Specialty Chemicals,"Companies that primarily produce high value-added chemicals used in the manufacture of a wide variety of products, including but not limited to fine chemicals, additives, advanced polymers, adhesives, sealants and specialty paints, pigments and coatings.",,"[
+11,15,Materials,1510,Materials,151010,Chemicals,15101050,Specialty Chemicals,"Companies that primarily produce high value-added chemicals used in the manufacture of a wide variety of products, including but not limited to fine chemicals, additives, advanced polymers, adhesives, sealants and specialty paints, pigments and coatings.","[
     {
         ""risk"": ""Extreme weather events disrupting production"",
         ""mitigation"": ""Invest in robust infrastructure and backup systems to ensure minimal interruption to production""
@@ -414,7 +414,7 @@
         ""mitigation"": ""Seek expert advice to ensure compliance with all relevant laws and regulations, and invest in regular training for staff""
     }
 ]"
-12,15,Materials,1510,Materials,151020,Construction Materials,15102010,Construction Materials,"Manufacturers of construction materials including sand, clay, gypsum, lime, aggregates, cement, concrete and bricks. Other finished or semi-finished building materials are classified in the Building Products Sub-Industry.",,"[
+12,15,Materials,1510,Materials,151020,Construction Materials,15102010,Construction Materials,"Manufacturers of construction materials including sand, clay, gypsum, lime, aggregates, cement, concrete and bricks. Other finished or semi-finished building materials are classified in the Building Products Sub-Industry.","[
     {
         ""risk"": ""Increase in operational costs due to rising temperatures and heatwaves"",
         ""mitigation"": ""Invest in energy-efficient technologies and heat-resistant materials for operations""
@@ -456,7 +456,7 @@
         ""mitigation"": ""Engage in active stakeholder communication and demonstrate commitment to sustainability""
     }
 ]"
-13,15,Materials,1510,Materials,151030,Containers & Packaging,15103010,Metal & Glass Containers,"Manufacturers of metal, glass or plastic containers. Includes corks and caps.",,"[
+13,15,Materials,1510,Materials,151030,Containers & Packaging,15103010,Metal & Glass Containers,"Manufacturers of metal, glass or plastic containers. Includes corks and caps.","[
   {
     ""risk"": ""Increased operational costs due to carbon pricing policies"",
     ""mitigation"": ""Adopting cleaner and energy efficient technologies""
@@ -490,7 +490,7 @@
     ""mitigation"": ""Investing in infrastructure improvements and disaster risk reduction measures""
   }
 ]"
-14,15,Materials,1510,Materials,151030,Containers & Packaging,15103020,Paper Packaging,Manufacturers of paper and cardboard containers and packaging.,,"[
+14,15,Materials,1510,Materials,151030,Containers & Packaging,15103020,Paper Packaging,Manufacturers of paper and cardboard containers and packaging.,"[
   {
     ""risk"": ""Forest depletion due to raw material sourcing"", 
     ""mitigation"": ""Implementing sustainable sourcing strategies, increasing recycling rates""
@@ -520,7 +520,7 @@
     ""mitigation"": ""Publicly committing to sustainability goals, regular sustainability reporting""
   }
 ]"
-15,15,Materials,1510,Materials,151040,Metals & Mining,15104010,Aluminum,"Producers of aluminum and related products, including companies that mine or process bauxite and companies that recycle aluminum to produce finished or semi-finished products. Excludes companies that primarily produce aluminum building materials classified in the Building Products Sub-Industry.",,"[
+15,15,Materials,1510,Materials,151040,Metals & Mining,15104010,Aluminum,"Producers of aluminum and related products, including companies that mine or process bauxite and companies that recycle aluminum to produce finished or semi-finished products. Excludes companies that primarily produce aluminum building materials classified in the Building Products Sub-Industry.","[
   {
     ""risk"": ""Increased operational costs due to carbon pricing"",
     ""mitigation"": ""Investment in energy efficient technologies and processes; carbon offsetting""
@@ -558,7 +558,7 @@
     ""mitigation"": ""Investment in research and development for lower-emission production processes; development of recycling programs to reduce overall carbon footprint""
   }
 ]"
-16,15,Materials,1510,Materials,151040,Metals & Mining,15104020,Diversified Metals & Mining,"Companies engaged in the diversified production or extraction of metals and minerals not classified elsewhere. Including, but not limited to, nonferrous metal mining (except bauxite), salt and borate mining, phosphate rock mining, and diversified mining operations. Excludes iron ore mining, classified in the Steel Sub-Industry, bauxite mining, classified in the Aluminum Sub-Industry, and coal mining, classified in either the Steel or Coal & Consumable Fuels Sub-Industries.",,"[
+16,15,Materials,1510,Materials,151040,Metals & Mining,15104020,Diversified Metals & Mining,"Companies engaged in the diversified production or extraction of metals and minerals not classified elsewhere. Including, but not limited to, nonferrous metal mining (except bauxite), salt and borate mining, phosphate rock mining, and diversified mining operations. Excludes iron ore mining, classified in the Steel Sub-Industry, bauxite mining, classified in the Aluminum Sub-Industry, and coal mining, classified in either the Steel or Coal & Consumable Fuels Sub-Industries.","[
   {
     ""risk"": ""Extreme weather events damaging infrastructure"",
     ""mitigation"": ""Invest in robust infrastructure and weatherproof materials""
@@ -600,7 +600,7 @@
     ""mitigation"": ""Assess current and future flood risks and consider necessary adaptations""
   }
 ]"
-17,15,Materials,1510,Materials,151040,Metals & Mining,15104025,Copper,Companies involved primarily in copper ore mining.,,"[
+17,15,Materials,1510,Materials,151040,Metals & Mining,15104025,Copper,Companies involved primarily in copper ore mining.,"[
   {
     ""risk"": ""Increased temperatures conducting mining operations"",
     ""mitigation"": ""Implement climate control measures and workplace policies to protect employees, maintain equipment effectively""
@@ -638,7 +638,7 @@
     ""mitigation"": ""Engage actively with local communities, Implement responsible mining practices""
   }
 ]"
-18,15,Materials,1510,Materials,151040,Metals & Mining,15104030,Gold,"Producers of gold and related products, including companies that mine or process gold and the South African finance houses which primarily invest in, but do not operate, gold mines.",,"[
+18,15,Materials,1510,Materials,151040,Metals & Mining,15104030,Gold,"Producers of gold and related products, including companies that mine or process gold and the South African finance houses which primarily invest in, but do not operate, gold mines.","[
   {
     ""risk"": ""Physical risk due to extreme weather events"",
     ""mitigation"": ""Invest in infrastructure resilience, create robust emergency response plans""
@@ -672,7 +672,7 @@
     ""mitigation"": ""Diversify investment portfolio, regularly assess and manage climate-related financial risks""
   }
 ]"
-19,15,Materials,1510,Materials,151040,Metals & Mining,15104040,Precious Metals & Minerals,Companies mining precious metals and minerals not classified in the Gold Sub-Industry. Includes companies primarily mining platinum.,,"[
+19,15,Materials,1510,Materials,151040,Metals & Mining,15104040,Precious Metals & Minerals,Companies mining precious metals and minerals not classified in the Gold Sub-Industry. Includes companies primarily mining platinum.,"[
   {
     ""risk"": ""Emission of greenhouse gases"",
     ""mitigation"": ""Implement emission reduction techniques such as carbon capture and storage""
@@ -714,7 +714,7 @@
     ""mitigation"": ""Implementing a comprehensive water management strategy""
   }
 ]"
-20,15,Materials,1510,Materials,151040,Metals & Mining,15104045,Silver,Companies primarily mining silver. Excludes companies classified in the Gold or Precious Metals & Minerals Sub-Industries.,,"[
+20,15,Materials,1510,Materials,151040,Metals & Mining,15104045,Silver,Companies primarily mining silver. Excludes companies classified in the Gold or Precious Metals & Minerals Sub-Industries.,"[
   {
     ""risk"": ""Increased temperatures can make mining operations more difficult and costly"",
     ""mitigation"": ""Invest in upgraded equipment and technology to handle the increased temperatures""
@@ -740,7 +740,7 @@
     ""mitigation"": ""Implement robust land rehabilitation and waste management plans, regularly review and update these plans in light of changing climate conditions""
   }
 ]"
-21,15,Materials,1510,Materials,151040,Metals & Mining,15104050,Steel,"Producers of iron and steel and related products, including metallurgical (coking) coal mining used for steel production.",,"[
+21,15,Materials,1510,Materials,151040,Metals & Mining,15104050,Steel,"Producers of iron and steel and related products, including metallurgical (coking) coal mining used for steel production.","[
   {
     ""risk"": ""Increased energy costs due to carbon pricing policies"",
     ""mitigation"": ""Investing in energy efficient technologies and renewable energy sources""
@@ -778,7 +778,7 @@
     ""mitigation"": ""Investing in R&D to develop low-carbon products and services""
   }
 ]"
-22,15,Materials,1510,Materials,151050,Paper & Forest Products,15105010,Forest Products,Manufacturers of timber and related wood products. Includes lumber for the building industry.,,"[
+22,15,Materials,1510,Materials,151050,Paper & Forest Products,15105010,Forest Products,Manufacturers of timber and related wood products. Includes lumber for the building industry.,"[
   {
     ""risk"": ""Deforestation leading to loss of raw material"",
     ""mitigation"": ""Adopting sustainable logging practices and reforestation initiatives""
@@ -820,7 +820,7 @@
     ""mitigation"": ""Implementing biodiversity conservation strategies and participating in ecological restoration initiatives""
   }
 ]"
-23,15,Materials,1510,Materials,151050,Paper & Forest Products,15105020,Paper Products,Manufacturers of all grades of paper. Excludes companies specializing in paper packaging classified in the Paper Packaging Sub-Industry.,,"[
+23,15,Materials,1510,Materials,151050,Paper & Forest Products,15105020,Paper Products,Manufacturers of all grades of paper. Excludes companies specializing in paper packaging classified in the Paper Packaging Sub-Industry.,"[
   { 
     ""risk"": ""Extreme weather conditions disrupting production and distribution"", 
     ""mitigation"": ""Implementing a robust business continuity plan to minimize downtime during severe weather"" 
@@ -854,7 +854,7 @@
     ""mitigation"": ""Establishing a robust climate risk management strategy and compliance program""
   }
 ]"
-24,20,Industrials,2010,Capital Goods,201010,Aerospace & Defense,20101010,Aerospace & Defense,"Manufacturers of civil or military aerospace and defense equipment, parts or products. Includes defense electronics and space equipment.",,"[
+24,20,Industrials,2010,Capital Goods,201010,Aerospace & Defense,20101010,Aerospace & Defense,"Manufacturers of civil or military aerospace and defense equipment, parts or products. Includes defense electronics and space equipment.","[
   {
     ""risk"": ""Material Shortages due to Extreme Weather"",
     ""mitigation"": ""Diversify supplier base and maintain adequate material inventory""
@@ -896,7 +896,7 @@
     ""mitigation"": ""Invest in robust infrastructure and disaster recovery plans, including business interruption insurance""
   }
 ]"
-25,20,Industrials,2010,Capital Goods,201020,Building Products,20102010,Building Products,Manufacturers of building components and home improvement products and equipment. Excludes lumber and plywood classified under Forest Products and cement and other materials classified in the Construction Materials Sub-Industry.,,"[
+25,20,Industrials,2010,Capital Goods,201020,Building Products,20102010,Building Products,Manufacturers of building components and home improvement products and equipment. Excludes lumber and plywood classified under Forest Products and cement and other materials classified in the Construction Materials Sub-Industry.,"[
   {
     ""risk"": ""Temperature changes affecting working conditions"",
     ""mitigation"": ""Implementing climate control systems in manufacturing plants""
@@ -938,7 +938,7 @@
     ""mitigation"": ""Reducing carbon footprint with sustainable manufacturing practices""
   }
 ]"
-26,20,Industrials,2010,Capital Goods,201030,Construction & Engineering,20103010,Construction & Engineering,Companies engaged in primarily non-residential construction. Includes civil engineering companies and large-scale contractors. Excludes companies classified in the Homebuilding Sub-Industry.,,"[
+26,20,Industrials,2010,Capital Goods,201030,Construction & Engineering,20103010,Construction & Engineering,Companies engaged in primarily non-residential construction. Includes civil engineering companies and large-scale contractors. Excludes companies classified in the Homebuilding Sub-Industry.,"[
   {
     ""risk"": ""Increased cost of materials due to changes in weather patterns"",
     ""mitigation"": ""Procurement of materials in advance, strategic partnerships with suppliers, diversifying supply chains""
@@ -972,7 +972,7 @@
     ""mitigation"": ""Compliance management systems, constant monitoring and updating procedures""
   }
 ]"
-27,20,Industrials,2010,Capital Goods,201040,Electrical Equipment,20104010,Electrical Components & Equipment,"Companies that produce electric cables and wires, electrical components or equipment not classified in the Heavy Electrical Equipment Sub-Industry.",,"[
+27,20,Industrials,2010,Capital Goods,201040,Electrical Equipment,20104010,Electrical Components & Equipment,"Companies that produce electric cables and wires, electrical components or equipment not classified in the Heavy Electrical Equipment Sub-Industry.","[
   {
     ""risk"": ""Disruption of manufacturing operations due to extreme weather events"",
     ""mitigation"": ""Developing comprehensive disaster response plans and diversifying manufacturing locations""
@@ -1002,7 +1002,7 @@
     ""mitigation"": ""Investing in research and development to maintain compliance with emerging standards""
   }
 ]"
-28,20,Industrials,2010,Capital Goods,201040,Electrical Equipment,20104020,Heavy Electrical Equipment,"Manufacturers of power-generating equipment and other heavy electrical equipment, including power turbines, heavy electrical machinery intended for fixed-use and large electrical systems. Excludes cables and wires, classified in the Electrical Components & Equipment Sub-Industry.",,"[
+28,20,Industrials,2010,Capital Goods,201040,Electrical Equipment,20104020,Heavy Electrical Equipment,"Manufacturers of power-generating equipment and other heavy electrical equipment, including power turbines, heavy electrical machinery intended for fixed-use and large electrical systems. Excludes cables and wires, classified in the Electrical Components & Equipment Sub-Industry.","[
   {
     ""risk"": ""Regulations pertaining to reduction of carbon emissions"",
     ""mitigation"": ""Investing in R&D to develop clean and sustainable power generating technology""
@@ -1044,7 +1044,7 @@
     ""mitigation"": ""Energy-efficient practices on-site and investigation of renewable energy sources""
   }
 ]"
-29,20,Industrials,2010,Capital Goods,201050,Industrial Conglomerates,20105010,Industrial Conglomerates,"Diversified industrial companies with business activities in three or more sectors, none of which contributes a majority of revenues. Stakes held are predominantly of a controlling nature and stake holders maintain an operational interest in the running of the subsidiaries.",,"[
+29,20,Industrials,2010,Capital Goods,201050,Industrial Conglomerates,20105010,Industrial Conglomerates,"Diversified industrial companies with business activities in three or more sectors, none of which contributes a majority of revenues. Stakes held are predominantly of a controlling nature and stake holders maintain an operational interest in the running of the subsidiaries.","[
   {
     ""risk"": ""Risk of operational disruptions due to extreme weather events"",
     ""mitigation"": ""Implement robust contingency plans and infrastructure adaptations to withstand extreme weather conditions""
@@ -1078,7 +1078,7 @@
     ""mitigation"": ""Clearly define responsibilities for climate risks and impacts in business contracts, understand climate-related legislation and maintain compliance""
   }
 ]"
-30,20,Industrials,2010,Capital Goods,201060,Machinery,20106010,Construction Machinery & Heavy Trucks,"Manufacturers of heavy duty trucks, rolling machinery, earth-moving and construction equipment, and manufacturers of related parts. Includes non-military shipbuilding.",,"[
+30,20,Industrials,2010,Capital Goods,201060,Machinery,20106010,Construction Machinery & Heavy Trucks,"Manufacturers of heavy duty trucks, rolling machinery, earth-moving and construction equipment, and manufacturers of related parts. Includes non-military shipbuilding.","[
   {
     ""risk"": ""Increased extreme weather events disrupting production and supply chains"", 
     ""mitigation"": ""Invest in robust and resilient supply chain systems, and diversify supply chain locations""
@@ -1112,7 +1112,7 @@
     ""mitigation"": ""Implement a robust sustainability strategy and improve transparency in environmental reporting""
   }
 ]"
-31,20,Industrials,2010,Capital Goods,201060,Machinery,20106015,Agricultural & Farm Machinery,"Companies manufacturing agricultural machinery, farm machinery, and their related parts. Includes machinery used for the production of crops and agricultural livestock, agricultural tractors, planting and fertilizing machinery, fertilizer and chemical application equipment, and grain dryers and blowers.",,"[
+31,20,Industrials,2010,Capital Goods,201060,Machinery,20106015,Agricultural & Farm Machinery,"Companies manufacturing agricultural machinery, farm machinery, and their related parts. Includes machinery used for the production of crops and agricultural livestock, agricultural tractors, planting and fertilizing machinery, fertilizer and chemical application equipment, and grain dryers and blowers.","[
     {
         ""risk"": ""Supply chain interruptions due to extreme weather events"",
         ""mitigation"": ""Develop robust supply chain risk management strategies, including contingency planning and diversified suppliers""
@@ -1142,7 +1142,7 @@
         ""mitigation"": ""Invest in carbon capture and storage technology, transition to lower carbon manufacturing methods""
     }
 ]"
-32,20,Industrials,2010,Capital Goods,201060,Machinery,20106020,Industrial Machinery,"Manufacturers of industrial machinery and industrial components. Includes companies that manufacture presses, machine tools, compressors, pollution control equipment, elevators, escalators, insulators, pumps, roller bearings and other metal fabrications.",,"[
+32,20,Industrials,2010,Capital Goods,201060,Machinery,20106020,Industrial Machinery,"Manufacturers of industrial machinery and industrial components. Includes companies that manufacture presses, machine tools, compressors, pollution control equipment, elevators, escalators, insulators, pumps, roller bearings and other metal fabrications.","[
   {
     ""risk"": ""Increased operating costs due to carbon pricing"",
     ""mitigation"": ""Invest in cleaner, more energy-efficient machinery and production processes""
@@ -1180,7 +1180,7 @@
     ""mitigation"": ""Integrate sustainability into the core business strategy and communicate it effectively to stakeholders""
   }
 ]"
-33,20,Industrials,2010,Capital Goods,201070,Trading Companies & Distributors,20107010,Trading Companies & Distributors,Trading companies and other distributors of industrial equipment and products.,,"[
+33,20,Industrials,2010,Capital Goods,201070,Trading Companies & Distributors,20107010,Trading Companies & Distributors,Trading companies and other distributors of industrial equipment and products.,"[
   {
     ""risk"":""Increased operational costs due to extreme weather events"",
     ""mitigation"":""Invest in logistics and supply chain resilience, improve predictive capabilities for weather disruptions, develop diversified supplier base""
@@ -1214,7 +1214,7 @@
     ""mitigation"":""Create flexible and adaptive supply chains, diversify product offerings, monitor market trends closely""
   }
 ]"
-34,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201010,Commercial Printing,Companies providing commercial printing services. Includes printers primarily serving the media industry.,,"[
+34,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201010,Commercial Printing,Companies providing commercial printing services. Includes printers primarily serving the media industry.,"[
   {
     ""risk"": ""Increased operating costs due to extreme weather conditions affecting power and water supply"",
     ""mitigation"": ""Invest in renewable energy sources and efficient water management systems""
@@ -1244,7 +1244,7 @@
     ""mitigation"": ""Invest in worker safety measures and provide training on dealing with environmental hazards""
   }
 ]"
-35,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201050,Environmental & Facilities Services,"Companies providing environmental and facilities maintenance services. Includes waste management, facilities management and pollution control services. Excludes large-scale water treatment systems classified in the Water Utilities Sub-Industry.",,"[
+35,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201050,Environmental & Facilities Services,"Companies providing environmental and facilities maintenance services. Includes waste management, facilities management and pollution control services. Excludes large-scale water treatment systems classified in the Water Utilities Sub-Industry.","[
   {
     ""risk"": ""Increased regulation and standards around waste management and pollution control"",
     ""mitigation"": ""Investing in regular compliance trainings, staying updated and proactive in regulatory changes""
@@ -1274,7 +1274,7 @@
     ""mitigation"": ""Strong emphasis on environmental governance, internal auditing of environmental practices""
   }
 ]"
-36,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201060,Office Services & Supplies,Providers of office services and manufacturers of office supplies and equipment not classified elsewhere.,,"[
+36,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201060,Office Services & Supplies,Providers of office services and manufacturers of office supplies and equipment not classified elsewhere.,"[
   {
     ""risk"": ""Extreme weather events disrupting supply chains"",
     ""mitigation"": ""Invest in resilient infrastructure, diversify supplier locations""
@@ -1316,7 +1316,7 @@
     ""mitigation"": ""Invest in robust and flexible IT systems, regular data backups""
   }
 ]"
-37,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201070,Diversified Support Services,"Companies primarily providing labor oriented support services to businesses and governments. Includes commercial cleaning services, dining & catering services, equipment repair services, industrial maintenance services, industrial auctioneers, storage & warehousing, transaction services, uniform rental services, and other business support services.",,"[
+37,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201070,Diversified Support Services,"Companies primarily providing labor oriented support services to businesses and governments. Includes commercial cleaning services, dining & catering services, equipment repair services, industrial maintenance services, industrial auctioneers, storage & warehousing, transaction services, uniform rental services, and other business support services.","[
   {
     ""risk"": ""Extreme weather causing disruption to operations"",
     ""mitigation"": ""Developing contingency plans and securing insurance coverage for potential damages.""
@@ -1358,7 +1358,7 @@
     ""mitigation"": ""Leveraging risk mitigation strategies to negotiate lower rates and/or self-insuring for certain types of risks.""
   }
 ]"
-38,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201080,Security & Alarm Services,"Companies providing security and protection services to business and governments. Includes companies providing services such as correctional facilities, security & alarm services, armored transportation & guarding. Excludes companies providing security software classified under the Systems Software Sub-Industry and home security services classified under the Specialized Consumer Services Sub-Industry. Also excludes companies manufacturing security system equipment classified under the Electronic Equipment & Instruments Sub-Industry.",,"[
+38,20,Industrials,2020,Commercial & Professional Services,202010,Commercial Services & Supplies,20201080,Security & Alarm Services,"Companies providing security and protection services to business and governments. Includes companies providing services such as correctional facilities, security & alarm services, armored transportation & guarding. Excludes companies providing security software classified under the Systems Software Sub-Industry and home security services classified under the Specialized Consumer Services Sub-Industry. Also excludes companies manufacturing security system equipment classified under the Electronic Equipment & Instruments Sub-Industry.","[
   {
     ""risk"": ""Extreme weather conditions potentially disrupting on-ground operations and services."",
     ""mitigation"": ""Establishing contingency and disaster recovery plans, exploring options for diversifying locations of key operations.""
@@ -1384,7 +1384,7 @@
     ""mitigation"": ""Implementation of health and safety measures including provision for suitable working conditions, training and awareness for staff regarding potential health risks.""
   }
 ]"
-39,20,Industrials,2020,Commercial & Professional Services,202020,Professional Services,20202010,Human Resource & Employment Services,"Companies providing business support services relating to human capital management. Includes employment agencies, employee training, payroll & benefit support services, retirement support services and temporary agencies.",,"[
+39,20,Industrials,2020,Commercial & Professional Services,202020,Professional Services,20202010,Human Resource & Employment Services,"Companies providing business support services relating to human capital management. Includes employment agencies, employee training, payroll & benefit support services, retirement support services and temporary agencies.","[
     {
         ""risk"": ""Extreme weather events disrupting business operations"",
         ""mitigation"": ""Developing clear emergency preparedness and response plans""
@@ -1426,7 +1426,7 @@
         ""mitigation"": ""Adopting sustainable investing principles, integrating ESG into business decision-making""
     }
 ]"
-40,20,Industrials,2020,Commercial & Professional Services,202020,Professional Services,20202020,Research & Consulting Services,"Companies primarily providing research and consulting services to businesses and governments not classified elsewhere. Includes companies involved in management consulting services, architectural design, business information or scientific research, marketing, and testing & certification services. Excludes companies providing information technology consulting services classified in the IT Consulting & Other Services Sub-Industry.",,"[
+40,20,Industrials,2020,Commercial & Professional Services,202020,Professional Services,20202020,Research & Consulting Services,"Companies primarily providing research and consulting services to businesses and governments not classified elsewhere. Includes companies involved in management consulting services, architectural design, business information or scientific research, marketing, and testing & certification services. Excludes companies providing information technology consulting services classified in the IT Consulting & Other Services Sub-Industry.","[
   {
     ""risk"": ""Impact of climate regulations on operation costs"",
     ""mitigation"": ""Implement sustainable practices, adopt renewable sources of energy""
@@ -1460,7 +1460,7 @@
     ""mitigation"": ""Engage dedicated legal teams to understand and navigate changing laws and regulations""
   }
 ]"
-41,20,Industrials,2030,Transportation,203010,Air Freight & Logistics,20301010,Air Freight & Logistics,"Companies providing air freight transportation, courier and logistics services, including package and mail delivery and customs agents. Excludes those companies classified in the Airlines, Marine or Trucking Sub-Industries.",,"[
+41,20,Industrials,2030,Transportation,203010,Air Freight & Logistics,20301010,Air Freight & Logistics,"Companies providing air freight transportation, courier and logistics services, including package and mail delivery and customs agents. Excludes those companies classified in the Airlines, Marine or Trucking Sub-Industries.","[
 {
 ""risk"": ""Increased operational costs due to extreme weather events"",
 ""mitigation"": ""Implement advanced weather tracking systems to predict potential interruptions and disruptions, and plan logistics accordingly""
@@ -1502,7 +1502,7 @@
 ""mitigation"": ""Implementing heat stress prevention measures and providing appropriate training to employees""
 }
 ]"
-42,20,Industrials,2030,Transportation,203020,Airlines,20302010,Airlines,Companies providing primarily passenger air transportation.,,"[
+42,20,Industrials,2030,Transportation,203020,Airlines,20302010,Airlines,Companies providing primarily passenger air transportation.,"[
   {
     ""risk"": ""Extreme weather conditions causing flight cancellations and delays"",
     ""mitigation"": ""Invest in reliable weather prediction technology and develop comprehensive contingency plans.""
@@ -1540,7 +1540,7 @@
     ""mitigation"": ""Incorporate advanced turbulence detection technology in aircrafts.""
   }
 ]"
-43,20,Industrials,2030,Transportation,203030,Marine,20303010,Marine,"Companies providing goods or passenger maritime transportation. Excludes cruise-ships classified in the Hotels, Resorts & Cruise Lines Sub-Industry.",,"[
+43,20,Industrials,2030,Transportation,203030,Marine,20303010,Marine,"Companies providing goods or passenger maritime transportation. Excludes cruise-ships classified in the Hotels, Resorts & Cruise Lines Sub-Industry.","[
     {
      ""risk"": ""Rising Sea Levels"",
      ""mitigation"": ""Invest in ships that can handle higher sea levels and have safety measures against flooding""
@@ -1570,7 +1570,7 @@
       ""mitigation"": ""Upgrade ships to withstand severe weather patterns.""
     }
 ]"
-44,20,Industrials,2030,Transportation,203040,Road & Rail,20304010,Railroads,Companies providing primarily goods and passenger rail transportation.,,"[
+44,20,Industrials,2030,Transportation,203040,Road & Rail,20304010,Railroads,Companies providing primarily goods and passenger rail transportation.,"[
   {
     ""risk"": ""Extreme weather conditions causing service disruptions"",
     ""mitigation"": ""Invest in weather forecasting technologies and emergency response plans""
@@ -1612,7 +1612,7 @@
     ""mitigation"": ""Promote green practices and enhance sustainability credentials""
   }
 ]"
-45,20,Industrials,2030,Transportation,203040,Road & Rail,20304020,Trucking,Companies providing primarily goods and passenger land transportation. Includes vehicle rental and taxi companies.,,"[
+45,20,Industrials,2030,Transportation,203040,Road & Rail,20304020,Trucking,Companies providing primarily goods and passenger land transportation. Includes vehicle rental and taxi companies.,"[
     {
         ""risk"": ""Extreme weather conditions could disrupt transportation services"",
         ""mitigation"": ""Invest in all-weather vehicles, develop strong contingency plans, and business insurance""
@@ -1650,7 +1650,7 @@
         ""mitigation"": ""Regular maintenance checks, use of durable materials for vehicles, and investment in insurance""
     }
 ]"
-46,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305010,Airport Services,Operators of airports and companies providing related services.,,"[
+46,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305010,Airport Services,Operators of airports and companies providing related services.,"[
     {
         ""risk"": ""Rising temperatures causing deterioration of airport infrastructure"",
         ""mitigation"": ""Investing in resilient materials for runway and airport infrastructure to withstand high temperatures""
@@ -1684,7 +1684,7 @@
         ""mitigation"": ""Joint efforts with local environmental agencies to safeguard local ecosystems""
     }
 ]"
-47,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305020,Highways & Railtracks,"Owners and operators of roads, tunnels and railtracks.",,"[
+47,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305020,Highways & Railtracks,"Owners and operators of roads, tunnels and railtracks.","[
   {
     ""risk"": ""Extreme weather conditions leading to infrastructure damage"",
     ""mitigation"": ""Invest in infrastructure durability and maintenance""
@@ -1718,7 +1718,7 @@
     ""mitigation"": ""Ensure infrastructure is equipped with fire-resistant materials and maintain vegetation around infrastructure""
   }
 ]"
-48,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305030,Marine Ports & Services,Owners and operators of marine ports and related services.,,"[
+48,20,Industrials,2030,Transportation,203050,Transportation Infrastructure,20305030,Marine Ports & Services,Owners and operators of marine ports and related services.,"[
   {
     ""risk"": ""Rising sea levels and storm surges"",
     ""mitigation"": ""Investing in infrastructure upgrades to improve resilience against flooding and surge events""
@@ -1748,7 +1748,7 @@
     ""mitigation"": ""Maintaining transparent communication with stakeholders about climate action initiatives and progress""
   }
 ]"
-49,25,Consumer Discretionary,2510,Automobiles & Components,251010,Auto Components,25101010,Auto Parts & Equipment,Manufacturers of parts and accessories for automobiles and motorcycles. Excludes companies classified in the Tires & Rubber Sub-Industry.,,"[
+49,25,Consumer Discretionary,2510,Automobiles & Components,251010,Auto Components,25101010,Auto Parts & Equipment,Manufacturers of parts and accessories for automobiles and motorcycles. Excludes companies classified in the Tires & Rubber Sub-Industry.,"[
     {
         ""risk"": ""Increasing temperatures causing operational disruptions in manufacturing plants"",
         ""mitigation"": ""Investing in cooling technologies and heat-resistant materials in the manufacturing process""
@@ -1786,7 +1786,7 @@
         ""mitigation"": ""Ensuring strict environmental compliance and adopting environmentally friendly manufacturing processes""
     }
 ]"
-50,25,Consumer Discretionary,2510,Automobiles & Components,251010,Auto Components,25101020,Tires & Rubber,Manufacturers of tires and rubber.,,"[
+50,25,Consumer Discretionary,2510,Automobiles & Components,251010,Auto Components,25101020,Tires & Rubber,Manufacturers of tires and rubber.,"[
   {
     ""risk"": ""Extreme weather events disrupting production"",
     ""mitigation"": ""Developing a robust disaster management plan""
@@ -1820,7 +1820,7 @@
     ""mitigation"": ""Investing in energy efficiency and renewable energy""
   }
 ]"
-51,25,Consumer Discretionary,2510,Automobiles & Components,251020,Automobiles,25102010,Automobile Manufacturers,Companies that produce mainly passenger automobiles and light trucks. Excludes companies producing mainly motorcycles and three-wheelers classified in the Motorcycle Manufacturers Sub-Industry and heavy duty trucks classified in the Construction Machinery & Heavy Trucks Sub-Industry.,,"[
+51,25,Consumer Discretionary,2510,Automobiles & Components,251020,Automobiles,25102010,Automobile Manufacturers,Companies that produce mainly passenger automobiles and light trucks. Excludes companies producing mainly motorcycles and three-wheelers classified in the Motorcycle Manufacturers Sub-Industry and heavy duty trucks classified in the Construction Machinery & Heavy Trucks Sub-Industry.,"[
     {
         ""risk"": ""Regulatory risks due to increase in emissions standards"",
         ""mitigation"": ""Invest in Research and Development for cleaner and more fuel-efficient technologies""
@@ -1850,7 +1850,7 @@
         ""mitigation"": ""Communicate clearly about the company's initiatives towards addressing climate change and reduce environmental impact""
     }
 ]"
-52,25,Consumer Discretionary,2510,Automobiles & Components,251020,Automobiles,25102020,Motorcycle Manufacturers,"Companies that produce motorcycles, scooters or three-wheelers. Excludes bicycles classified in the Leisure Products Sub-Industry.",,"[
+52,25,Consumer Discretionary,2510,Automobiles & Components,251020,Automobiles,25102020,Motorcycle Manufacturers,"Companies that produce motorcycles, scooters or three-wheelers. Excludes bicycles classified in the Leisure Products Sub-Industry.","[
     {
         ""risk"": ""Increased production cost due to extreme weather"",
         ""mitigation"": ""Implementing contingency plans and exploring diverse supply chain sources""
@@ -1884,7 +1884,7 @@
         ""mitigation"": ""Engaging in environmentally responsible operations, creating CSR initiatives and communicating these efforts to stakeholders""
     }
 ]"
-53,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201010,Consumer Electronics,"Manufacturers of consumer electronics products including TVs, home audio equipment, game consoles, digital cameras, and related products. Excludes personal home computer manufacturers classified in the Technology Hardware, Storage & Peripherals Sub-Industry, and electric household appliances classified in the Household Appliances Sub-Industry.",,"[
+53,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201010,Consumer Electronics,"Manufacturers of consumer electronics products including TVs, home audio equipment, game consoles, digital cameras, and related products. Excludes personal home computer manufacturers classified in the Technology Hardware, Storage & Peripherals Sub-Industry, and electric household appliances classified in the Household Appliances Sub-Industry.","[
   {
     ""risk"": ""Increase in energy costs due to climate change policies"",
     ""mitigation"": ""Investing in energy efficient equipment and practices to reduce energy usage""
@@ -1918,7 +1918,7 @@
     ""mitigation"": ""Implementing water conservation practices and technologies in manufacturing processes""
   }
 ]"
-54,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201020,Home Furnishings,"Manufacturers of soft home furnishings or furniture, including upholstery, carpets and wall-coverings.",,"[
+54,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201020,Home Furnishings,"Manufacturers of soft home furnishings or furniture, including upholstery, carpets and wall-coverings.","[
   {
     ""risk"": ""Increase in production costs due to extreme weather conditions"",
     ""mitigation"": ""Investing in resilient infrastructure to withstand extreme weather conditions""
@@ -1956,7 +1956,7 @@
     ""mitigation"": ""Communicating sustainability strategies and accomplishments to stakeholders""
   }
 ]"
-55,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201030,Homebuilding,Residential construction companies. Includes manufacturers of prefabricated houses and semi-fixed manufactured homes.,,"[
+55,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201030,Homebuilding,Residential construction companies. Includes manufacturers of prefabricated houses and semi-fixed manufactured homes.,"[
   {
     ""risk"": ""Increase in temperature leading to dangerous working conditions"",
     ""mitigation"": ""Implementing AC systems at the workspace and allowing more flexibility in working hours during extreme hot weather""
@@ -1994,7 +1994,7 @@
     ""mitigation"": ""Creating fair working conditions to retain labour and considering the use of automated systems""
   }
 ]"
-56,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201040,Household Appliances,"Manufacturers of electric household appliances and related products. Includes manufacturers of power and hand tools, including garden improvement tools. Excludes TVs and other audio and video products classified in the Consumer Electronics Sub-Industry and personal computers classified in the Technology Hardware, Storage & Peripherals Sub-Industry.",,"[
+56,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201040,Household Appliances,"Manufacturers of electric household appliances and related products. Includes manufacturers of power and hand tools, including garden improvement tools. Excludes TVs and other audio and video products classified in the Consumer Electronics Sub-Industry and personal computers classified in the Technology Hardware, Storage & Peripherals Sub-Industry.","[
   {
     ""risk"": ""Increase in power failures due to severe weather events"", 
     ""mitigation"": ""Investing in alternative energy sources or energy storage solutions to ensure continued operations during power failures""
@@ -2028,7 +2028,7 @@
     ""mitigation"": ""Publicizing the company's climate action steps, joining industry-wide initiatives to combat climate change""
   } 
 ]"
-57,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201050,Housewares & Specialties,"Manufacturers of durable household products, including cutlery, cookware, glassware, crystal, silverware, utensils, kitchenware and consumer specialties not classified elsewhere.",,"[
+57,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252010,Household Durables,25201050,Housewares & Specialties,"Manufacturers of durable household products, including cutlery, cookware, glassware, crystal, silverware, utensils, kitchenware and consumer specialties not classified elsewhere.","[
   {
     ""risk"": ""Increased production costs due to extreme weather conditions/plant shutdowns"",
     ""mitigation"": ""Invest in localized production facilities, adequate safety measures in place to ensure production efficiency, appropriate insurance coverage""
@@ -2062,7 +2062,7 @@
     ""mitigation"": ""Strategic risk management plan, adequate insurance coverage""
   }
 ]"
-58,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252020,Leisure Products,25202010,Leisure Products,"Manufacturers of leisure products and equipment including sports equipment, bicycles and toys.",,"[
+58,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252020,Leisure Products,25202010,Leisure Products,"Manufacturers of leisure products and equipment including sports equipment, bicycles and toys.","[
   {
     ""risk"": ""Raw material scarcity due to extreme climatic events"",
     ""mitigation"": ""Diversifying supplier base and using alternative materials""
@@ -2104,7 +2104,7 @@
     ""mitigation"": ""Improving energy efficiency and investing in renewable energy""
   }
 ]"
-59,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203010,"Apparel, Accessories & Luxury Goods","Manufacturers of apparel, accessories & luxury goods. Includes companies primarily producing designer handbags, wallets, luggage, jewelry and watches. Excludes shoes classified in the Footwear Sub-Industry.",,"[
+59,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203010,"Apparel, Accessories & Luxury Goods","Manufacturers of apparel, accessories & luxury goods. Includes companies primarily producing designer handbags, wallets, luggage, jewelry and watches. Excludes shoes classified in the Footwear Sub-Industry.","[
     {
         ""risk"": ""Increases in temperature can affect the comfort and health of workers, reducing productivity"",
         ""mitigation"": ""Install advanced cooling systems in workplaces and allow more flexible work arrangements""
@@ -2138,7 +2138,7 @@
         ""mitigation"": ""Invest in onsite renewable energy generation and energy storage solutions""
     }
 ]"
-60,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203020,Footwear,Manufacturers of footwear. Includes sport and leather shoes.,,"[
+60,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203020,Footwear,Manufacturers of footwear. Includes sport and leather shoes.,"[
     {
         ""risk"": ""Increased cost of raw materials due to extreme weather events."",
         ""mitigation"": ""Diversify the supply chain to include suppliers from various regions.""
@@ -2176,7 +2176,7 @@
         ""mitigation"": ""Develop and communicate a clear climate action strategy.""
     }
 ]"
-61,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203030,Textiles,"Manufacturers of textile and related products not classified in the Apparel, Accessories & Luxury Goods, Footwear or Home Furnishings Sub-Industries.",,"[
+61,25,Consumer Discretionary,2520,Consumer Durables & Apparel,252030,"Textiles, Apparel & Luxury Goods",25203030,Textiles,"Manufacturers of textile and related products not classified in the Apparel, Accessories & Luxury Goods, Footwear or Home Furnishings Sub-Industries.","[
     {
         ""risk"": ""Increased operating costs due to extreme weather events"",
         ""mitigation"": ""Investment in infrastructure resilient to extreme weather conditions""
@@ -2218,7 +2218,7 @@
         ""mitigation"": ""Development and promotion of a strong corporate sustainability plan""
     }
 ]"
-62,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301010,Casinos & Gaming,Owners and operators of casinos and gaming facilities. Includes companies providing lottery and betting services.,,"[
+62,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301010,Casinos & Gaming,Owners and operators of casinos and gaming facilities. Includes companies providing lottery and betting services.,"[
     {
         ""risk"":""Increasing temperatures affecting customer comfort and increasing cooling costs"",
         ""mitigation"":""Investing in energy efficient cooling systems and renewable energy solutions""
@@ -2256,7 +2256,7 @@
         ""mitigation"":""Implementing a robust climate change strategy and communicating this effectively to stakeholders""
     }
 ]"
-63,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301020,"Hotels, Resorts & Cruise Lines","Owners and operators of hotels, resorts and cruise-ships. Includes travel agencies, tour operators and related services not classified elsewhere . Excludes casino-hotels classified in the Casinos & Gaming Sub-Industry.",,"[
+63,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301020,"Hotels, Resorts & Cruise Lines","Owners and operators of hotels, resorts and cruise-ships. Includes travel agencies, tour operators and related services not classified elsewhere . Excludes casino-hotels classified in the Casinos & Gaming Sub-Industry.","[
   {
     ""risk"": ""Extreme weather conditions disrupting operations, leading to cancellations and potential damage to properties"",
     ""mitigation"": ""Investing in early warning system and response plans, infrastructure reinforcements, and insurance coverage""
@@ -2282,7 +2282,7 @@
     ""mitigation"": ""Staying up to date with regulatory changes and exploring partnerships for compliance""
   }
 ]"
-64,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301030,Leisure Facilities,"Owners and operators of leisure facilities, including sport and fitness centers, stadiums, golf courses and amusement parks not classified in the Movies & Entertainment Sub-Industry.",,"[
+64,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301030,Leisure Facilities,"Owners and operators of leisure facilities, including sport and fitness centers, stadiums, golf courses and amusement parks not classified in the Movies & Entertainment Sub-Industry.","[
   {
     ""risk"": ""Increased temperatures causing discomfort for customers and possibly reducing business"",
     ""mitigation"": ""Invest in air conditioning systems and cooling infrastructure""
@@ -2316,7 +2316,7 @@
     ""mitigation"": ""Diversify offerings to include non-snow dependent activities""
   }
 ]"
-65,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301040,Restaurants,"Owners and operators of restaurants, bars, pubs, fast-food or take-out facilities. Includes companies that provide food catering services.",,"[
+65,25,Consumer Discretionary,2530,Consumer Services,253010,"Hotels, Restaurants & Leisure",25301040,Restaurants,"Owners and operators of restaurants, bars, pubs, fast-food or take-out facilities. Includes companies that provide food catering services.","[
   {
     ""risk"": ""Impact of extreme weather events"", 
     ""mitigation"": ""Implementing robust contingency plans, having additional suppliers to avoid disruption in supply chain.""
@@ -2346,7 +2346,7 @@
     ""mitigation"": ""Communicating sustainability efforts to customers and stakeholders, implementing measurable sustainability goals.""
   }
 ]"
-66,25,Consumer Discretionary,2530,Consumer Services,253020,Diversified Consumer Services,25302010,Education Services,"Companies providing educational services, either on-line or through conventional teaching methods. Includes, private universities, correspondence teaching, providers of educational seminars, educational materials and technical education. Excludes companies providing employee education programs classified in the Human Resources & Employment Services Sub-Industry",,"[
+66,25,Consumer Discretionary,2530,Consumer Services,253020,Diversified Consumer Services,25302010,Education Services,"Companies providing educational services, either on-line or through conventional teaching methods. Includes, private universities, correspondence teaching, providers of educational seminars, educational materials and technical education. Excludes companies providing employee education programs classified in the Human Resources & Employment Services Sub-Industry","[
   {
     ""risk"": ""Extreme weather events disrupting physical infrastructure or access to them, such as universities and seminar venues"",
     ""mitigation"": ""Investing in climate-resilient infrastructure and planning for emergency continuity of services which can also be switched to online if needed""
@@ -2372,7 +2372,7 @@
     ""mitigation"": ""Providing mental health support and integrating climate change and sustainability education into the curriculum""
   }
 ]"
-67,25,Consumer Discretionary,2530,Consumer Services,253020,Diversified Consumer Services,25302020,Specialized Consumer Services,"Companies providing consumer services not classified elsewhere. Includes residential services, home security, legal services, personal services, renovation & interior design services, consumer auctions and wedding & funeral services.",,"[
+67,25,Consumer Discretionary,2530,Consumer Services,253020,Diversified Consumer Services,25302020,Specialized Consumer Services,"Companies providing consumer services not classified elsewhere. Includes residential services, home security, legal services, personal services, renovation & interior design services, consumer auctions and wedding & funeral services.","[
   {
     ""risk"": ""Extreme weather conditions disrupting service delivery"",
     ""mitigation"": ""Implementing a robust business continuity plan to manage disruptions""
@@ -2414,7 +2414,7 @@
     ""mitigation"": ""Ensuring compliance with all relevant climate and environmental laws""
   }
 ]"
-68,25,Consumer Discretionary,2550,Retailing,255010,Distributors,25501010,Distributors,Distributors and wholesalers of general merchandise not classified elsewhere. Includes vehicle distributors.,,"[
+68,25,Consumer Discretionary,2550,Retailing,255010,Distributors,25501010,Distributors,Distributors and wholesalers of general merchandise not classified elsewhere. Includes vehicle distributors.,"[
 {
 ""risk"": ""Extreme weather events disrupting distribution routes"",
 ""mitigation"": ""Investing in advanced weather tracking technologies and creating contingency transportation plans""
@@ -2452,7 +2452,7 @@
 ""mitigation"": ""Implementing energy-saving measures such as insulation and energy-efficient HVAC systems""
 }
 ]"
-69,25,Consumer Discretionary,2550,Retailing,255020,Internet & Direct Marketing Retail,25502020,Internet & Direct Marketing Retail,"Companies providing retail services primarily on the Internet, through mail order, and TV home shopping retailers. Also includes companies providing online marketplaces for consumer products and services.",,"[
+69,25,Consumer Discretionary,2550,Retailing,255020,Internet & Direct Marketing Retail,25502020,Internet & Direct Marketing Retail,"Companies providing retail services primarily on the Internet, through mail order, and TV home shopping retailers. Also includes companies providing online marketplaces for consumer products and services.","[
   {
     ""risk"": ""Disruptions due to extreme weather conditions"",
     ""mitigation"": ""Establish a robust business continuity plan that accommodates for severe weather""
@@ -2494,7 +2494,7 @@
     ""mitigation"": ""Promote green initiatives within the company, provide training on sustainability, ensure workplace safety""
   }
 ]"
-70,25,Consumer Discretionary,2550,Retailing,255030,Multiline Retail,25503010,Department Stores,Owners and operators of department stores.,,"[
+70,25,Consumer Discretionary,2550,Retailing,255030,Multiline Retail,25503010,Department Stores,Owners and operators of department stores.,"[
   {
     ""risk"": ""Extreme weather events disrupting supply chains"",
     ""mitigation"": ""Diversifying supplier network, building robust contingency plans""
@@ -2528,7 +2528,7 @@
     ""mitigation"": ""Improving workplace environments, providing appropriate health supports""
   }
 ]"
-71,25,Consumer Discretionary,2550,Retailing,255030,Multiline Retail,25503020,General Merchandise Stores,Owners and operators of stores offering diversified general merchandise. Excludes hypermarkets and large-scale super centers classified in the Hypermarkets & Super Centers Sub-Industry.,,"[
+71,25,Consumer Discretionary,2550,Retailing,255030,Multiline Retail,25503020,General Merchandise Stores,Owners and operators of stores offering diversified general merchandise. Excludes hypermarkets and large-scale super centers classified in the Hypermarkets & Super Centers Sub-Industry.,"[
   {
     ""risk"": ""Increased operational costs due to extreme weather events"",
     ""mitigation"": ""Investment in weather-forecasting technology and flexible supply-chain management""
@@ -2570,7 +2570,7 @@
     ""mitigation"": ""Efficiency improvements in logistics, exploration of alternative fuel options""
   }
 ]"
-72,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504010,Apparel Retail,Retailers specialized mainly in apparel and accessories.,,"[
+72,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504010,Apparel Retail,Retailers specialized mainly in apparel and accessories.,"[
   {
     ""risk"": ""Disruptions in supply chain due to extreme weather events"",
     ""mitigation"": ""Develop diversified supply chains and invest in predictive modeling to anticipate disruptions""
@@ -2601,7 +2601,7 @@
   }
 ]
 "
-73,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504020,Computer & Electronics Retail,"Owners and operators of consumer electronics, computers, video and related products retail stores.",,"[
+73,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504020,Computer & Electronics Retail,"Owners and operators of consumer electronics, computers, video and related products retail stores.","[
   {
     ""risk"": ""Severe weather conditions disrupting supply chain"",
     ""mitigation"": ""Implement a robust supply chain risk management system and diversify suppliers""
@@ -2643,7 +2643,7 @@
     ""mitigation"": ""Implement and publicize a robust sustainability strategy""
   }
 ]"
-74,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504030,Home Improvement Retail,Owners and operators of home and garden improvement retail stores. Includes stores offering building materials and supplies.,,"[
+74,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504030,Home Improvement Retail,Owners and operators of home and garden improvement retail stores. Includes stores offering building materials and supplies.,"[
   {
     ""risk"": ""Extreme weather conditions"",
     ""mitigation"": ""Invest in weather-resistant infrastructures, emergency plans and diversify supply chain to mitigate this risk.""
@@ -2681,7 +2681,7 @@
     ""mitigation"": ""Develop a diverse supplier network, promote sustainable practices among suppliers, and invest in supply chain digitalization for better management during disruptions.""
   }
 ]"
-75,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504040,Specialty Stores,"Owners and operators of specialty retail stores not classified elsewhere. Includes jewelry stores, toy stores, office supply stores, health & vision care stores, and book & entertainment stores.",,"[
+75,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504040,Specialty Stores,"Owners and operators of specialty retail stores not classified elsewhere. Includes jewelry stores, toy stores, office supply stores, health & vision care stores, and book & entertainment stores.","[
   {
     ""risk"": ""Extreme weather events disrupting store hours and operations"", 
     ""mitigation"": ""Invest in backup power supplies,  weather-proof infrastructure, and business interruption insurance""
@@ -2711,7 +2711,7 @@
     ""mitigation"": ""Implement clear sustainability policies and communicate these effectively to customers""
   }
 ]"
-76,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504050,Automotive Retail,"Owners and operators of stores specializing in automotive retail. Includes auto dealers, gas stations, and retailers of auto accessories, motorcycles & parts, automotive glass, and automotive equipment & parts.",,"[
+76,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504050,Automotive Retail,"Owners and operators of stores specializing in automotive retail. Includes auto dealers, gas stations, and retailers of auto accessories, motorcycles & parts, automotive glass, and automotive equipment & parts.","[
 {
 ""risk"":""Rising fuel prices due to climate change laws and regulations"",
 ""mitigation"":""Invest in electric vehicle stocks and promotion, provide electric charging facilities, and consider alternative energy fuels""
@@ -2752,7 +2752,7 @@
 ""mitigation"":""Adopt sustainable practices throughout operations, engage in environmental stewardship programs""
 }
 ]"
-77,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504060,Homefurnishing Retail,"Owners and operators of furniture and home furnishings retail stores. Includes residential furniture, homefurnishings, housewares, and interior design. Excludes home and garden improvement stores, classified in the Home Improvement Retail Sub-Industry.",,"[
+77,25,Consumer Discretionary,2550,Retailing,255040,Specialty Retail,25504060,Homefurnishing Retail,"Owners and operators of furniture and home furnishings retail stores. Includes residential furniture, homefurnishings, housewares, and interior design. Excludes home and garden improvement stores, classified in the Home Improvement Retail Sub-Industry.","[
   {
     ""risk"": ""Extreme weather events disrupting supply chain"",
     ""mitigation"": ""Invest in resilient infrastructure, diversify supplier base and supply routes, ensure proper insurance.""
@@ -2786,7 +2786,7 @@
     ""mitigation"": ""Implement carbon reduction measures, invest in carbon offset projects, consider potential pricing strategies to pass on cost increases.""
   }
 ]"
-78,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101010,Drug Retail,Owners and operators of primarily drug retail stores and pharmacies.,,"[
+78,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101010,Drug Retail,Owners and operators of primarily drug retail stores and pharmacies.,"[
     {
         ""risk"": ""Increase in temperature may affect the efficacy of certain medications"", 
         ""mitigation"": ""Invest in climate-controlled storage facilities""
@@ -2812,7 +2812,7 @@
         ""mitigation"": ""Explore alternative ingredients or suppliers for these products""
     }
 ]"
-79,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101020,Food Distributors,Distributors of food products to other companies and not directly to the consumer.,,"[
+79,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101020,Food Distributors,Distributors of food products to other companies and not directly to the consumer.,"[
     {
         ""risk"": ""Increased transportation costs due to extreme weather conditions"",
         ""mitigation"": ""Invest in diversified modes of transport to ensure delivery continuity""
@@ -2846,7 +2846,7 @@
         ""mitigation"": ""Develop and communicate strong climate related policies and plans""
     }
 ]"
-80,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101030,Food Retail,Owners and operators of primarily food retail stores.,,"[
+80,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101030,Food Retail,Owners and operators of primarily food retail stores.,"[
   {
     ""risk"": ""Extreme weather events disrupting supply chains"", 
     ""mitigation"": ""Implement contingency plans, diversify suppliers, increase storage capacities""
@@ -2876,7 +2876,7 @@
     ""mitigation"": ""Engage suppliers to ensure sustainable farming practices, source certified products""
   }
 ]"
-81,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101040,Hypermarkets & Super Centers,"Owners and operators of hypermarkets and super centers selling food and a wide-range of consumer staple products. Excludes Food and Drug Retailers classified in the Food Retail and Drug Retail Sub-Industries, respectively.",,"[
+81,30,Consumer Staples,3010,Food & Staples Retailing,301010,Food & Staples Retailing,30101040,Hypermarkets & Super Centers,"Owners and operators of hypermarkets and super centers selling food and a wide-range of consumer staple products. Excludes Food and Drug Retailers classified in the Food Retail and Drug Retail Sub-Industries, respectively.","[
 {
 ""risk"": ""Severe weather conditions affecting supply chain, logistics and distribution of goods"",
 ""mitigation"": ""Develop contingency plans, diversify suppliers, invest in technology solutions that predict weather conditions and streamline logistic operations""
@@ -2901,7 +2901,7 @@
 ""risk"": ""Potential increase in waste disposal costs due to environmental regulations"",
 ""mitigation"": ""Invest in waste management and recycling initiatives, reduce packaging, incorporate sustainability into product design""}
 ]"
-82,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201010,Brewers,Producers of beer and malt liquors. Includes breweries not classified in the Restaurants Sub-Industry.,,"[
+82,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201010,Brewers,Producers of beer and malt liquors. Includes breweries not classified in the Restaurants Sub-Industry.,"[
   {
     ""risk"": ""Water scarcity and water quality due to changing weather patterns"",
     ""mitigation"": ""Implementing water-saving technologies and conducting regular water-quality checks""
@@ -2943,7 +2943,7 @@
     ""mitigation"": ""Investing in research to develop disease resistant crop varieties""
   }
 ]"
-83,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201020,Distillers & Vintners,"Distillers, vintners and producers of alcoholic beverages not classified in the Brewers Sub-Industry.",,"[
+83,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201020,Distillers & Vintners,"Distillers, vintners and producers of alcoholic beverages not classified in the Brewers Sub-Industry.","[
     { ""risk"":""Extreme weather events damaging crops"", ""mitigation"":""Developing a diverse supply chain and crop insurance schemes"" },
     { ""risk"":""Water scarcity affecting production"", ""mitigation"":""Investing in water efficiency technologies and practices"" },
     { ""risk"":""Increased regulation around water usage"", ""mitigation"":""Developing good water stewardship practices"" },
@@ -2955,7 +2955,7 @@
     { ""risk"":""Impacts on local communities where production is based"", ""mitigation"":""Developing good community relations and contributing to local resilience initiatives"" },
     { ""risk"":""Carbon pricing affecting cost of production"", ""mitigation"":""Reducing carbon footprint through efficient practices and renewable energy"" }
 ]"
-84,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201030,Soft Drinks,Producers of non-alcoholic beverages including mineral waters. Excludes producers of milk classified in the Packaged Foods Sub-Industry.,,"[
+84,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302010,Beverages,30201030,Soft Drinks,Producers of non-alcoholic beverages including mineral waters. Excludes producers of milk classified in the Packaged Foods Sub-Industry.,"[
   {
     ""risk"": ""Water Scarcity"",
     ""mitigation"": ""Implementing water conservation practices and use of recycled or non-potable water in production process""
@@ -2989,7 +2989,7 @@
     ""mitigation"": ""Creating a resilient and diversified supply chain to minimise impact""
   }
 ]"
-85,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302020,Food Products,30202010,Agricultural Products,"Producers of agricultural products. Includes crop growers, owners of plantations and companies that produce and process foods but do not package and market them. Excludes companies classified in the Forest Products Sub-Industry and those that package and market the food products classified in the Packaged Foods Sub-Industry.",,"[
+85,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302020,Food Products,30202010,Agricultural Products,"Producers of agricultural products. Includes crop growers, owners of plantations and companies that produce and process foods but do not package and market them. Excludes companies classified in the Forest Products Sub-Industry and those that package and market the food products classified in the Packaged Foods Sub-Industry.","[
   {
     ""risk"": ""Drought leading to crop failure and reduced yield."",
     ""mitigation"": ""Invest in irrigation systems, Drought-resistant crops and crop insurance.""
@@ -3023,7 +3023,7 @@
     ""mitigation"": ""Invest in sustainable farming practices, Use of cover crops and mulching to protect soil.""
   }
 ]"
-86,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302020,Food Products,30202030,Packaged Foods & Meats,"Producers of packaged foods including dairy products, fruit juices, meats, poultry, fish and pet foods.",,"[
+86,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302020,Food Products,30202030,Packaged Foods & Meats,"Producers of packaged foods including dairy products, fruit juices, meats, poultry, fish and pet foods.","[
     {
         ""risk"": ""Extreme weather events can disrupt supply chain operations."",
         ""mitigation"": ""Develop robust supplier partnerships and create contingency plans for potential disruptions.""
@@ -3053,7 +3053,7 @@
         ""mitigation"": ""Invest in integrated pest management strategies and veterinary services to maintain supply of high-quality raw materials.""
     }
 ]"
-87,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302030,Tobacco,30203010,Tobacco,Manufacturers of cigarettes and other tobacco products.,,"[
+87,30,Consumer Staples,3020,"Food, Beverage & Tobacco",302030,Tobacco,30203010,Tobacco,Manufacturers of cigarettes and other tobacco products.,"[
   {
     ""risk"": ""Extreme weather events disrupting supply chain"",
     ""mitigation"": ""Setting up alternate supply chains and disaster recovery plans""
@@ -3095,7 +3095,7 @@
     ""mitigation"": ""Relocation or adequate protection of high risk facilities""
   }
 ]"
-88,30,Consumer Staples,3030,Household & Personal Products,303010,Household Products,30301010,Household Products,"Producers of non-durable household products, including detergents, soaps, diapers and other tissue and household paper products not classified in the Paper Products Sub-Industry.",,"[
+88,30,Consumer Staples,3030,Household & Personal Products,303010,Household Products,30301010,Household Products,"Producers of non-durable household products, including detergents, soaps, diapers and other tissue and household paper products not classified in the Paper Products Sub-Industry.","[
   {
     ""risk"": ""Increased operational costs due to carbon pricing initiatives"",
     ""mitigation"": ""Investing in renewable energy sources for production processes""
@@ -3125,7 +3125,7 @@
     ""mitigation"": ""Demonstrating leadership in sustainability initiatives and transparently communicating these efforts to the public""
   }
 ]"
-89,30,Consumer Staples,3030,Household & Personal Products,303020,Personal Products,30302010,Personal Products,"Manufacturers of personal and beauty care products, including cosmetics and perfumes.",,"[
+89,30,Consumer Staples,3030,Household & Personal Products,303020,Personal Products,30302010,Personal Products,"Manufacturers of personal and beauty care products, including cosmetics and perfumes.","[
   {
     ""risk"": ""Disruption of supply chains due to extreme weather events"",
     ""mitigation"": ""Creating diversified supply chains and investing in local suppliers to minimize dependence on single source""
@@ -3163,7 +3163,7 @@
     ""mitigation"": ""Adhering to strict environmental compliance procedures and regularly auditing operations for any potential violations""
   }
 ]"
-90,35,Health Care,3510,Health Care Equipment & Services,351010,Health Care Equipment & Supplies,35101010,Health Care Equipment,"Manufacturers of health care equipment and devices. Includes medical instruments, drug delivery systems, cardiovascular & orthopedic devices, and diagnostic equipment.",,"[
+90,35,Health Care,3510,Health Care Equipment & Services,351010,Health Care Equipment & Supplies,35101010,Health Care Equipment,"Manufacturers of health care equipment and devices. Includes medical instruments, drug delivery systems, cardiovascular & orthopedic devices, and diagnostic equipment.","[
   {
     ""risk"": ""Environmental regulations"",
     ""mitigation"": ""Compliance with all local, regional, and international environmental laws and regulations""
@@ -3197,7 +3197,7 @@
     ""mitigation"": ""Investing in disaster recovery planning and business continuity plans""
   }
 ]"
-91,35,Health Care,3510,Health Care Equipment & Services,351010,Health Care Equipment & Supplies,35101020,Health Care Supplies,"Manufacturers of health care supplies and medical products not classified elsewhere. Includes eye care products, hospital supplies, and safety needle & syringe devices.",,"[
+91,35,Health Care,3510,Health Care Equipment & Services,351010,Health Care Equipment & Supplies,35101020,Health Care Supplies,"Manufacturers of health care supplies and medical products not classified elsewhere. Includes eye care products, hospital supplies, and safety needle & syringe devices.","[
   {
     ""risk"": ""Disruption in the supply chain due to extreme weather events"",
     ""mitigation"": ""Diversify supply chains and inventory to limit dependency on one location""
@@ -3231,7 +3231,7 @@
     ""mitigation"": ""Source alternative materials or develop relationships with multiple suppliers""
   }
 ]"
-92,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102010,Health Care Distributors,Distributors and wholesalers of health care products not classified elsewhere.,,"[
+92,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102010,Health Care Distributors,Distributors and wholesalers of health care products not classified elsewhere.,"[
   {
     ""risk"": ""Disruption in supply chain due to extreme weather events"",
     ""mitigation"": ""Developing a robust, diversified supply chain management system and insurances against such disruptions""
@@ -3261,7 +3261,7 @@
     ""mitigation"": ""Investing in proper storage, tracking, and handling systems""
   }
 ]"
-93,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102015,Health Care Services,"Providers of patient health care services not classified elsewhere. Includes dialysis centers, lab testing services, and pharmacy management services. Also includes companies providing business support services to health care providers, such as clerical support services, collection agency services, staffing services and outsourced sales & marketing services",,"[
+93,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102015,Health Care Services,"Providers of patient health care services not classified elsewhere. Includes dialysis centers, lab testing services, and pharmacy management services. Also includes companies providing business support services to health care providers, such as clerical support services, collection agency services, staffing services and outsourced sales & marketing services","[
   {
     ""risk"": ""Extreme weather events disrupting service"",
     ""mitigation"": ""Invest in resilient infrastructure and develop contingency plans""
@@ -3299,7 +3299,7 @@
     ""mitigation"": ""Implement sustainability programs and transparently communicate efforts""
   }
 ]"
-94,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102020,Health Care Facilities,"Owners and operators of health care facilities, including hospitals, nursing homes, rehabilitation centers and animal hospitals.",,"[
+94,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102020,Health Care Facilities,"Owners and operators of health care facilities, including hospitals, nursing homes, rehabilitation centers and animal hospitals.","[
 {
 ""risk"": ""Increase in infectious diseases due to climate change"",
 ""mitigation"": ""Investing in intensive efforts to maintain hygiene standards, infrastructure development to prevent transmission of diseases and training for employees to handle such situations.""
@@ -3329,7 +3329,7 @@
 ""mitigation"": ""Investing in energy-efficient equipment and buildings, adopting sustainability initiatives.""
 }
 ]"
-95,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102030,Managed Health Care,Owners and operators of Health Maintenance Organizations (HMOs) and other managed plans.,,"[
+95,35,Health Care,3510,Health Care Equipment & Services,351020,Health Care Providers & Services,35102030,Managed Health Care,Owners and operators of Health Maintenance Organizations (HMOs) and other managed plans.,"[
   {
     ""risk"": ""Increased operating costs due to extreme weather events"",
     ""mitigation"": ""Invest in renewable energy sources to reduce dependency on traditional power""
@@ -3355,7 +3355,7 @@
     ""mitigation"": ""Implement and communicate a clear sustainability strategy""
   }
 ]"
-96,35,Health Care,3510,Health Care Equipment & Services,351030,Health Care Technology,35103010,Health Care Technology,"Companies providing information technology services primarily to health care providers. Includes companies providing application, systems and/or data processing software, internet-based tools, and IT consulting services to doctors, hospitals or businesses operating primarily in the Health Care Sector",,"[
+96,35,Health Care,3510,Health Care Equipment & Services,351030,Health Care Technology,35103010,Health Care Technology,"Companies providing information technology services primarily to health care providers. Includes companies providing application, systems and/or data processing software, internet-based tools, and IT consulting services to doctors, hospitals or businesses operating primarily in the Health Care Sector","[
   {
     ""risk"": ""Damage to physical infrastructure due to natural disasters amplified by climate change"",
     ""mitigation"": ""Invest in disaster-resistant infrastructure and contingency plans for network recovery""
@@ -3389,7 +3389,7 @@
     ""mitigation"": ""Diversification of supplier base and implementing contingency plans""
   }
 ]"
-97,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352010,Biotechnology,35201010,Biotechnology,"Companies primarily engaged in the research, development, manufacturing and/or marketing of products based on genetic analysis and genetic engineering. Includes companies specializing in protein-based therapeutics to treat human diseases. Excludes companies manufacturing products using biotechnology but without a health care application.",,"[
+97,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352010,Biotechnology,35201010,Biotechnology,"Companies primarily engaged in the research, development, manufacturing and/or marketing of products based on genetic analysis and genetic engineering. Includes companies specializing in protein-based therapeutics to treat human diseases. Excludes companies manufacturing products using biotechnology but without a health care application.","[
 {
 ""risk"": ""Impacts of extreme weather disasters on operations"",
 ""mitigation"": ""Implementing disaster management plans and insurance coverage""
@@ -3427,7 +3427,7 @@
 ""mitigation"": ""Investing in R&D for climate change related health issues""
 }
 ]"
-98,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352020,Pharmaceuticals,35202010,Pharmaceuticals,"Companies engaged in the research, development or production of pharmaceuticals. Includes veterinary drugs.",,"[
+98,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352020,Pharmaceuticals,35202010,Pharmaceuticals,"Companies engaged in the research, development or production of pharmaceuticals. Includes veterinary drugs.","[
   {
     ""risk"": ""Extreme weather events disrupting supply chain"",
     ""mitigation"": ""Establishing diversified supply chain and sourcing strategies""
@@ -3469,7 +3469,7 @@
     ""mitigation"": ""Investing in research to improve drug storage and transport conditions""
   }
 ]"
-99,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352030,Life Sciences Tools & Services,35203010,Life Sciences Tools & Services,"Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services. Includes firms primarily servicing the pharmaceutical and biotechnology industries.",,"[
+99,35,Health Care,3520,"Pharmaceuticals, Biotechnology & Life Sciences",352030,Life Sciences Tools & Services,35203010,Life Sciences Tools & Services,"Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services. Includes firms primarily servicing the pharmaceutical and biotechnology industries.","[
   {
     ""risk"": ""Disruption of Supply Chain due to Extreme Weather Events"",
     ""mitigation"": ""Implement a risk management plan that includes alternate suppliers and diversification of supply chain.""
@@ -3507,7 +3507,7 @@
     ""mitigation"": ""Implement sustainable methods for waste management and disposal, including reducing, recycling and reusing waste where feasible.""
   }
 ]"
-100,40,Financials,4010,Banks,401010,Banks,40101010,Diversified Banks,"Large, geographically diverse banks with a national footprint whose revenues are derived primarily from conventional banking operations, have significant business activity in retail banking and small and medium corporate lending, and provide a diverse range of financial services. Excludes banks classified in the Regional Banks and Thrifts & Mortgage Finance Sub-Industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry.",,"[
+100,40,Financials,4010,Banks,401010,Banks,40101010,Diversified Banks,"Large, geographically diverse banks with a national footprint whose revenues are derived primarily from conventional banking operations, have significant business activity in retail banking and small and medium corporate lending, and provide a diverse range of financial services. Excludes banks classified in the Regional Banks and Thrifts & Mortgage Finance Sub-Industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry.","[
     {
         ""risk"": ""Physical risks due to extreme weather events leading to disruption in operations"",
         ""mitigation"": ""Invest in strengthening infrastructure, develop a robust disaster recovery and business continuity plans.""
@@ -3537,14 +3537,14 @@
         ""mitigation"": ""Develop robust market risk management strategies, assess and model potential impacts of climate change on markets.""
     }
 ]"
-101,40,Financials,4010,Banks,401010,Banks,40101015,Regional Banks,Commercial banks whose businesses are derived primarily from conventional banking operations and have significant business activity in retail banking and small and medium corporate lending. Regional banks tend to operate in limited geographic regions. Excludes companies classified in the Diversified Banks and Thrifts & Mortgage Banks sub-industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry.,,"[{""risk"": ""Rising sea levels due to climate change leading to potential property loss for the bank and/or its customers"", ""mitigation"": ""Diversifying property investments and loans to areas less affected by rising sea levels""},
+101,40,Financials,4010,Banks,401010,Banks,40101015,Regional Banks,Commercial banks whose businesses are derived primarily from conventional banking operations and have significant business activity in retail banking and small and medium corporate lending. Regional banks tend to operate in limited geographic regions. Excludes companies classified in the Diversified Banks and Thrifts & Mortgage Banks sub-industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry.,"[{""risk"": ""Rising sea levels due to climate change leading to potential property loss for the bank and/or its customers"", ""mitigation"": ""Diversifying property investments and loans to areas less affected by rising sea levels""},
 {""risk"": ""More frequent and severe weather events disrupting physical banking operations"", ""mitigation"": ""Investing in online banking technology and sturdy infrastructure to withstand extreme weather""},  
 {""risk"": ""Changes in regulations due to climate change policies affecting the banking industry"", ""mitigation"": ""Hiring a regulatory affairs team to stay apprised of changes and ensure compliance""},  
 {""risk"": ""Carbon-heavy industries in the lending portfolio suffering hits due to climate policy changes"", ""mitigation"": ""Ensuring a balanced portfolio with enough climate-friendly businesses""},  
 {""risk"": ""A rise in insurance claims due to climate-related events affecting customers' ability to repay loans"", ""mitigation"": ""Factoring clients' geographical location and exposure to climate-related risks into loan approval processes""},
 {""risk"": ""Pressure from stakeholders to divest from fossil fuels and other businesses contributing to climate change"", ""mitigation"": ""Creating a sustainable investment strategy and actively communicating it to stakeholders""},  
 {""risk"": ""Climate-related events causing loan defaulters to increase"", ""mitigation"": ""Increasing loan loss reserves and investing in robust risk management systems""}]"
-102,40,Financials,4010,Banks,401020,Thrifts & Mortgage Finance,40102010,Thrifts & Mortgage Finance,"Financial institutions providing mortgage and mortgage related services. These include financial institutions whose assets are primarily mortgage related, savings & loans, mortgage lending institutions, building societies and companies providing insurance to mortgage banks.",,"[
+102,40,Financials,4010,Banks,401020,Thrifts & Mortgage Finance,40102010,Thrifts & Mortgage Finance,"Financial institutions providing mortgage and mortgage related services. These include financial institutions whose assets are primarily mortgage related, savings & loans, mortgage lending institutions, building societies and companies providing insurance to mortgage banks.","[
 { 
 ""risk"": ""Economic downturns causing an increase in loan defaults"", 
 ""mitigation"": ""Implementing stringent lending criteria to ensure business sustainability during periods of economic uncertainty"" 
@@ -3578,7 +3578,7 @@
 ""mitigation"": ""Ensuring full disclosure of climate-related risks and proactive management of these risks"" 
 }
 ]"
-103,40,Financials,4020,Diversified Financials,402010,Diversified Financial Services,40201020,Other Diversified Financial Services,"Providers of a diverse range of financial services and/or with some interest in a wide range of financial services including banking, insurance and capital markets, but with no dominant business line. Excludes companies classified in the Regional Banks and Diversified Banks Sub-Industries.",,"[
+103,40,Financials,4020,Diversified Financials,402010,Diversified Financial Services,40201020,Other Diversified Financial Services,"Providers of a diverse range of financial services and/or with some interest in a wide range of financial services including banking, insurance and capital markets, but with no dominant business line. Excludes companies classified in the Regional Banks and Diversified Banks Sub-Industries.","[
     {
         ""risk"": ""Credit risk from customers affected by changing climate patterns and extreme weather events"",
         ""mitigation"": ""Diversify lending portfolio and develop risk assessment models incorporating climate change scenarios""
@@ -3612,7 +3612,7 @@
         ""mitigation"": ""Develop and implement a robust ESG strategy""
     }
 ]"
-104,40,Financials,4020,Diversified Financials,402010,Diversified Financial Services,40201030,Multi-Sector Holdings,"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature. Includes diversified financial companies where stakes held are of a controlling nature. Excludes other diversified companies classified in the Industrials Conglomerates Sub-Industry.",,"[
+104,40,Financials,4020,Diversified Financials,402010,Diversified Financial Services,40201030,Multi-Sector Holdings,"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature. Includes diversified financial companies where stakes held are of a controlling nature. Excludes other diversified companies classified in the Industrials Conglomerates Sub-Industry.","[
   {
     ""risk"": ""Stricter environmental regulations resulting in increased operating costs"",
     ""mitigation"": ""Invest in carbon offset projects, promote sustainable practices, and design strategies to comply with regulations""
@@ -3647,7 +3647,7 @@
   }
 ]"
 105,40,Financials,4020,Diversified Financials,402010,Diversified Financial Services,40201040,Specialized Finance,"Providers of specialized financial services not classified elsewhere. Companies in this sub-industry derive a majority of revenue from one specialized line of business. 
- Includes, but not limited to, commercial financing companies, central banks, leasing institutions, factoring services, and specialty boutiques. Excludes companies classified in the Financial Exchanges & Data sub-industry.",,"[
+ Includes, but not limited to, commercial financing companies, central banks, leasing institutions, factoring services, and specialty boutiques. Excludes companies classified in the Financial Exchanges & Data sub-industry.","[
   {
     ""risk"": ""Uncertainty in financial models due to variable and unpredictable climate patterns"",
     ""mitigation"": ""Invest in more robust modeling software and hire specialists for better prediction and understanding of variable factors""
@@ -3677,7 +3677,7 @@
     ""mitigation"": ""Compliance with international green standards, hire regulatory experts, and engage in legislative consultation processes""
   }
 ]"
-106,40,Financials,4020,Diversified Financials,402020,Consumer Finance,40202010,Consumer Finance,"Providers of consumer finance services, including personal credit, credit cards, lease financing, travel-related money services and pawn shops. Excludes mortgage lenders classified in the Thrifts & Mortgage Finance Sub-Industry.",,"[
+106,40,Financials,4020,Diversified Financials,402020,Consumer Finance,40202010,Consumer Finance,"Providers of consumer finance services, including personal credit, credit cards, lease financing, travel-related money services and pawn shops. Excludes mortgage lenders classified in the Thrifts & Mortgage Finance Sub-Industry.","[
   {
     ""risk"": ""Implications of new green financial regulations that target carbon-intensive industries"", 
     ""mitigation"": ""Monitor regulatory changes, Invest in carbon-neutral products, Engage with regulatory bodies to understand upcoming changes""
@@ -3711,7 +3711,7 @@
     ""mitigation"": ""Effective communication about climate-related risks, Engage legal advice for disclosure processes""
   }
 ]"
-107,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203010,Asset Management & Custody Banks,"Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services. Includes companies operating mutual funds, closed-end funds and unit investment trusts. Excludes banks and other financial institutions primarily involved in commercial lending, investment banking, brokerage and other specialized financial activities.",,"[
+107,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203010,Asset Management & Custody Banks,"Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services. Includes companies operating mutual funds, closed-end funds and unit investment trusts. Excludes banks and other financial institutions primarily involved in commercial lending, investment banking, brokerage and other specialized financial activities.","[
 {
 ""risk"": ""Increased regulatory pressures and policies aimed at mitigating climate change"",
 ""mitigation"": ""Stay informed and prepared for new regulations. Develop and maintain strong lobbying presence to shape and influence policy.""
@@ -3741,7 +3741,7 @@
 ""mitigation"": ""Adopt strategies to better manage and conserve resources. Invest in resource efficiency.""
 }
 ]"
-108,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203020,Investment Banking & Brokerage,"Financial institutions primarily engaged in investment banking & brokerage services, including equity and debt underwriting, mergers and acquisitions, securities lending and advisory services. Excludes banks and other financial institutions primarily involved in commercial lending, asset management and specialized financial activities.",,"[
+108,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203020,Investment Banking & Brokerage,"Financial institutions primarily engaged in investment banking & brokerage services, including equity and debt underwriting, mergers and acquisitions, securities lending and advisory services. Excludes banks and other financial institutions primarily involved in commercial lending, asset management and specialized financial activities.","[
   {
     ""risk"": ""Physical risk due to extreme weather events"",
     ""mitigation"": ""Implement disaster management and recovery protocols, insure against physical damages""
@@ -3775,7 +3775,7 @@
     ""mitigation"": ""Perform comprehensive credit risk assessments that consider climate factors, diversify client portfolio""
   }
 ]"
-109,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203030,Diversified Capital Markets,"Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following area: large/major corporate lending, investment banking, brokerage and asset management. Excludes less diversified companies classified in the Asset Management & Custody Banks or Investment Banking & Brokerage sub-industries. Also excludes companies classified in the Banks or Insurance industry groups or the Consumer Finance Sub-Industry.",,"[
+109,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203030,Diversified Capital Markets,"Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following area: large/major corporate lending, investment banking, brokerage and asset management. Excludes less diversified companies classified in the Asset Management & Custody Banks or Investment Banking & Brokerage sub-industries. Also excludes companies classified in the Banks or Insurance industry groups or the Consumer Finance Sub-Industry.","[
   {
     ""risk"": ""Increased insurance claims and payouts due to climate-related disasters"",
     ""mitigation"": ""Diversification of investment portfolio and implementation of climate change risk assessment strategies in investment decisions""
@@ -3805,7 +3805,7 @@
     ""mitigation"": ""Development and promotion of climate-friendly financial products and services""
   }
 ]"
-110,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203040,Financial Exchanges & Data,"Financial exchanges for securities, commodities, derivatives and other financial instruments, and providers of financial decision support tools and products including ratings agencies",,"[
+110,40,Financials,4020,Diversified Financials,402030,Capital Markets,40203040,Financial Exchanges & Data,"Financial exchanges for securities, commodities, derivatives and other financial instruments, and providers of financial decision support tools and products including ratings agencies","[
 {
 ""risk"": ""Physical risk from extreme weather events disrupting operations"",
 ""mitigation"": ""Implementing robust disaster recovery and business continuity plans""
@@ -3836,7 +3836,7 @@
 }
 ]"
 111,40,Financials,4020,Diversified Financials,402040,"Mortgage Real Estate Investment 
- Trusts (REITs)",40204010,Mortgage REITs,"Companies or Trusts that service, originate, purchase and/or securitize residential and/or commercial mortgage loans. Includes trusts that invest in mortgage-backed securities and other mortgage related assets.",,"[
+ Trusts (REITs)",40204010,Mortgage REITs,"Companies or Trusts that service, originate, purchase and/or securitize residential and/or commercial mortgage loans. Includes trusts that invest in mortgage-backed securities and other mortgage related assets.","[
     {
         ""risk"": ""Changes in weather patterns causing property damage (e.g., higher incidence of flooding, wildfires etc.) impacting borrowers’ ability to repay loans"",
         ""mitigation"": ""Use of predictive modelling to assess climate-related physical risks to properties in portfolio and adjust underwriting strategy accordingly""
@@ -3862,7 +3862,7 @@
         ""mitigation"": ""Transparency in reporting climate-related risks and actions taken to mitigate them""
     }
 ]"
-112,40,Financials,4030,Insurance,403010,Insurance,40301010,Insurance Brokers,Insurance and reinsurance brokerage firms.,,"[
+112,40,Financials,4030,Insurance,403010,Insurance,40301010,Insurance Brokers,Insurance and reinsurance brokerage firms.,"[
 	{
 		""risk"": ""Losses from weather-related catastrophic events"",
 		""mitigation"": ""Investing in catastrophe modeling and risk management strategies to anticipate and minimize losses""
@@ -3896,7 +3896,7 @@
 		""mitigation"": ""Exploring insurance solutions for climate refugees and developing partnerships for climate resilience""
 	}
 ]"
-113,40,Financials,4030,Insurance,403010,Insurance,40301020,Life & Health Insurance,"Companies providing primarily life, disability, indemnity or supplemental health insurance. Excludes managed care companies classified in the Managed Health Care Sub-Industry.",,"[
+113,40,Financials,4030,Insurance,403010,Insurance,40301020,Life & Health Insurance,"Companies providing primarily life, disability, indemnity or supplemental health insurance. Excludes managed care companies classified in the Managed Health Care Sub-Industry.","[
   {
     ""risk"": ""Increased health claims due to climate related diseases"",
     ""mitigation"": ""Adjustment of pricing models to factor in climate change and the implementation of preventative measures like wellness programs""
@@ -3934,7 +3934,7 @@
     ""mitigation"": ""Incorporating climate-change risk models into the pricing of insurance products""
   }
 ]"
-114,40,Financials,4030,Insurance,403010,Insurance,40301030,Multi-line Insurance,"Insurance companies with diversified interests in life, health and property and casualty insurance.",,"[
+114,40,Financials,4030,Insurance,403010,Insurance,40301030,Multi-line Insurance,"Insurance companies with diversified interests in life, health and property and casualty insurance.","[
   {
     ""risk"": ""Rising Claims Costs Due to More Frequent Extreme Weather Events"",
     ""mitigation"": ""Implementing a robust risk assessment for underwriting decisions, raising premiums for high-risk customers""
@@ -3968,7 +3968,7 @@
     ""mitigation"": ""Develop new products that are attractive to eco-conscious customers, such as discounted rates for environmentally-friendly practices""
   }
 ]"
-115,40,Financials,4030,Insurance,403010,Insurance,40301040,Property & Casualty Insurance,Companies providing primarily property and casualty insurance.,,"[
+115,40,Financials,4030,Insurance,403010,Insurance,40301040,Property & Casualty Insurance,Companies providing primarily property and casualty insurance.,"[
 {
 ""risk"": ""Increased claims due to extreme weather events"",
 ""mitigation"": ""Incorporate climate modeling into risk management; Increase premiums or adjust coverage in high-risk areas""
@@ -3998,7 +3998,7 @@
 ""mitigation"": ""Diversify product offerings to include coverage for renewable energy and other green technologies""
 }
 ]"
-116,40,Financials,4030,Insurance,403010,Insurance,40301050,Reinsurance,Companies providing primarily reinsurance.,,"[
+116,40,Financials,4030,Insurance,403010,Insurance,40301050,Reinsurance,Companies providing primarily reinsurance.,"[
   {
     ""risk"": ""Changes in severe weather events frequency leading to increased insurance claims"",
     ""mitigation"": ""Increasing insurance premiums and diversifying insurance pool""
@@ -4028,7 +4028,7 @@
     ""mitigation"": ""Establishing a sound framework for managing climate-related financial risks""
   }
 ]"
-117,45,Information Technology,4510,Software & Services,451020,IT Services,45102010,IT Consulting & Other Services,Providers of information technology and systems integration services not classified in the Data Processing & Outsourced Services Sub-Industry. Includes information technology consulting and information management services.,,"[
+117,45,Information Technology,4510,Software & Services,451020,IT Services,45102010,IT Consulting & Other Services,Providers of information technology and systems integration services not classified in the Data Processing & Outsourced Services Sub-Industry. Includes information technology consulting and information management services.,"[
 {
 ""risk"": ""Data center overheating due to increase in atmospheric temperatures"",
 ""mitigation"": ""Implementing advanced cooling systems and infrastructure resilience""
@@ -4070,7 +4070,7 @@
 ""mitigation"": ""Investment in technology and solutions to reduce greenhouse gas emissions and adapt to climate change""
 }
 ]"
-118,45,Information Technology,4510,Software & Services,451020,IT Services,45102020,Data Processing & Outsourced Services,Providers of commercial electronic data processing and/or business process outsourcing services. Includes companies that provide services for back-office automation.,,"[
+118,45,Information Technology,4510,Software & Services,451020,IT Services,45102020,Data Processing & Outsourced Services,Providers of commercial electronic data processing and/or business process outsourcing services. Includes companies that provide services for back-office automation.,"[
   {
     ""risk"": ""Data center overheating due to global warming"",
     ""mitigation"": ""Investment in advanced cooling systems and temperature monitoring""
@@ -4100,7 +4100,7 @@
     ""mitigation"": ""Diversifying client base and business areas so not solely reliant on certain markets""
   }
 ]"
-119,45,Information Technology,4510,Software & Services,451020,IT Services,45102030,Internet Services & Infrastructure,Companies providing services and infrastructure for the internet industry including data centers and cloud networking and storage infrastructure. Also includes companies providing web hosting services. Excludes companies classified in the Software Industry.,,"[
+119,45,Information Technology,4510,Software & Services,451020,IT Services,45102030,Internet Services & Infrastructure,Companies providing services and infrastructure for the internet industry including data centers and cloud networking and storage infrastructure. Also includes companies providing web hosting services. Excludes companies classified in the Software Industry.,"[
   {
     ""risk"": ""Risk of physical damage to data centers and infrastructure due to extreme weather conditions"",
     ""mitigation"": ""Invest in high-quality, robust physical infrastructure that can withstand severe weather. Regular maintenance checks should also be in place. Consider insurance against weather-related damages.""
@@ -4130,7 +4130,7 @@
     ""mitigation"": ""Invest in advanced cooling systems. Regularly monitor and control the temperature and humidity in data centers.""
   }
 ]"
-120,45,Information Technology,4510,Software & Services,451030,Software,45103010,Application Software,"Companies engaged in developing and producing software designed for specialized applications for the business or consumer market. Includes enterprise and technical software, as well as cloud-based software. Excludes companies classified in the Interactive Home Entertainment Sub-Industry. Also excludes companies producing systems or database management software classified in the Systems Software Sub-Industry.",,"[
+120,45,Information Technology,4510,Software & Services,451030,Software,45103010,Application Software,"Companies engaged in developing and producing software designed for specialized applications for the business or consumer market. Includes enterprise and technical software, as well as cloud-based software. Excludes companies classified in the Interactive Home Entertainment Sub-Industry. Also excludes companies producing systems or database management software classified in the Systems Software Sub-Industry.","[
     {
         ""risk"": ""Increased energy demand due to global warming"", 
         ""mitigation"": ""Invest in green energy sources and infrastructures, optimize data centers for energy efficiency""
@@ -4164,7 +4164,7 @@
         ""mitigation"": ""Relocate or safeguard data centers in at-risk coastal areas""
     }
 ]"
-121,45,Information Technology,4510,Software & Services,451030,Software,45103020,Systems Software,Companies engaged in developing and producing systems and database management software.,,"[
+121,45,Information Technology,4510,Software & Services,451030,Software,45103020,Systems Software,Companies engaged in developing and producing systems and database management software.,"[
   {
     ""risk"": ""Physical damage to infrastructure due to extreme weather events"",
     ""mitigation"": ""Invest in disaster recovery and business continuity plans; consider alternative locations for critical infrastructure""
@@ -4194,7 +4194,7 @@
     ""mitigation"": ""Invest in energy efficiency; exploring renewable energy sources; negotiating long term energy contracts""
   }
 ]"
-122,45,Information Technology,4520,Technology Hardware & Equipment,452010,Communications Equipment,45201020,Communications Equipment,"Manufacturers of communication equipment and products, including LANs, WANs, routers, telephones, switchboards and exchanges. Excludes cellular phone manufacturers classified in the Technology Hardware, Storage & Peripherals Sub-Industry.",,"[
+122,45,Information Technology,4520,Technology Hardware & Equipment,452010,Communications Equipment,45201020,Communications Equipment,"Manufacturers of communication equipment and products, including LANs, WANs, routers, telephones, switchboards and exchanges. Excludes cellular phone manufacturers classified in the Technology Hardware, Storage & Peripherals Sub-Industry.","[
   {
     ""risk"": ""Disruptions in supply chain due to extreme weather events"",
     ""mitigation"": ""Diversifying supply chain and utilizing predictive analytics to anticipate disruptions""
@@ -4228,7 +4228,7 @@
     ""mitigation"": ""Implementing robust sustainability and Corporate Social Responsibility (CSR) programs""
   }
 ]"
-123,45,Information Technology,4520,Technology Hardware & Equipment,452020,"Technology Hardware, Storage & Peripherals",45202030,"Technology Hardware, Storage & Peripherals","Manufacturers of cellular phones, personal computers, servers, electronic computer components and peripherals. Includes data storage components, motherboards, audio and video cards, monitors, keyboards, printers, and other peripherals. Excludes semiconductors classified in the Semiconductors Sub-Industry.",,"[
+123,45,Information Technology,4520,Technology Hardware & Equipment,452020,"Technology Hardware, Storage & Peripherals",45202030,"Technology Hardware, Storage & Peripherals","Manufacturers of cellular phones, personal computers, servers, electronic computer components and peripherals. Includes data storage components, motherboards, audio and video cards, monitors, keyboards, printers, and other peripherals. Excludes semiconductors classified in the Semiconductors Sub-Industry.","[
   {
     ""risk"": ""Disruption of production due to extreme weather events"",
     ""mitigation"": ""Build redundancy into supply chains and improve infrastructural resilience""
@@ -4262,7 +4262,7 @@
     ""mitigation"": ""Implement comprehensive risk assessment and management strategies""
   }
 ]"
-124,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203010,Electronic Equipment & Instruments,"Manufacturers of electronic equipment and instruments including analytical, electronic test and measurement instruments, scanner/barcode products, lasers, display screens, point-of-sales machines, and security system equipment.",,"[
+124,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203010,Electronic Equipment & Instruments,"Manufacturers of electronic equipment and instruments including analytical, electronic test and measurement instruments, scanner/barcode products, lasers, display screens, point-of-sales machines, and security system equipment.","[
   {
     ""risk"": ""Potential disruption of production due to extreme weather conditions"",
     ""mitigation"": ""Create a comprehensive disaster plan, including establishing alternative production sites""
@@ -4304,7 +4304,7 @@
     ""mitigation"": ""Invest in safe and healthy working conditions, including temperature controlled production facilities""
   }
 ]"
-125,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203015,Electronic Components,"Manufacturers of electronic components. Includes electronic components, connection devices, electron tubes, electronic capacitors and resistors, electronic coil, printed circuit board, transformer and other inductors, signal processing technology/components.",,"[
+125,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203015,Electronic Components,"Manufacturers of electronic components. Includes electronic components, connection devices, electron tubes, electronic capacitors and resistors, electronic coil, printed circuit board, transformer and other inductors, signal processing technology/components.","[
   {
     ""risk"": ""Damage to facilities due to extreme weather events"",
     ""mitigation"": ""Invest in disaster preparedness measures, including robust infrastructures and insurance coverage""
@@ -4338,7 +4338,7 @@
     ""mitigation"": ""Adopt circular economy practices and invest in material efficiency.""
   }
 ]"
-126,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203020,Electronic Manufacturing Services,Producers of electronic equipment mainly for the OEM (Original Equipment Manufacturers) markets.,,"[
+126,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203020,Electronic Manufacturing Services,Producers of electronic equipment mainly for the OEM (Original Equipment Manufacturers) markets.,"[
     {
         ""risk"": ""Increased operational costs due to extreme weather conditions"",
         ""mitigation"": ""Invest in weather-resistant infrastructure and backup power systems""
@@ -4372,7 +4372,7 @@
         ""mitigation"": ""Forecast and plan for price volatility, consider alternative materials as needed""
     }
 ]"
-127,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203030,Technology Distributors,"Distributors of technology hardware and equipment. Includes distributors of communications equipment, computers & peripherals, semiconductors, and electronic equipment and components.",,"[
+127,45,Information Technology,4520,Technology Hardware & Equipment,452030,"Electronic Equipment, Instruments & Components",45203030,Technology Distributors,"Distributors of technology hardware and equipment. Includes distributors of communications equipment, computers & peripherals, semiconductors, and electronic equipment and components.","[
   {
     ""risk"": ""Disruption of supply chain due to extreme weather events"",
     ""mitigation"": ""Diversifying suppliers, investing in advanced predictive analytics for weather disruptions, ensuring suppliers have climate adaptation strategies""
@@ -4402,7 +4402,7 @@
     ""mitigation"": ""Implementing a clear sustainability strategy and communicating it effectively to customers""
   }
 ]"
-128,45,Information Technology,4530,Semiconductors & Semiconductor Equipment,453010,Semiconductors & Semiconductor Equipment,45301010,Semiconductor Equipment,"Manufacturers of semiconductor equipment, including manufacturers of the raw material and equipment used in the solar power industry.",,"[
+128,45,Information Technology,4530,Semiconductors & Semiconductor Equipment,453010,Semiconductors & Semiconductor Equipment,45301010,Semiconductor Equipment,"Manufacturers of semiconductor equipment, including manufacturers of the raw material and equipment used in the solar power industry.","[
   {
     ""risk"": ""Extreme weather events damaging manufacturing facilities"",
     ""mitigation"": ""Investment in hazard resistant infrastructures and insurance""
@@ -4444,7 +4444,7 @@
     ""mitigation"": ""Investing in legal counsel and climate risk management strategies""
   }
 ]"
-129,45,Information Technology,4530,Semiconductors & Semiconductor Equipment,453010,Semiconductors & Semiconductor Equipment,45301020,Semiconductors,"Manufacturers of semiconductors and related products, including manufacturers of solar modules and cells.",,"[
+129,45,Information Technology,4530,Semiconductors & Semiconductor Equipment,453010,Semiconductors & Semiconductor Equipment,45301020,Semiconductors,"Manufacturers of semiconductors and related products, including manufacturers of solar modules and cells.","[
     {
         ""risk"": ""Resource scarcity due to climate change leading to higher raw material costs"",
         ""mitigation"": ""Invest in the development of more sustainable materials and improve material efficiency in production""
@@ -4474,7 +4474,7 @@
         ""mitigation"": ""Invest in climate-controlled facilities or relocate to areas with favorable temperatures""
     }
 ]"
-130,50,Communication Services,5010,Telecommunication Services,501010,Diversified Telecommunication Services,50101010,Alternative Carriers,Providers of communications and high-density data transmission services primarily through a high bandwidth/fiber-optic cable network.,,"[
+130,50,Communication Services,5010,Telecommunication Services,501010,Diversified Telecommunication Services,50101010,Alternative Carriers,Providers of communications and high-density data transmission services primarily through a high bandwidth/fiber-optic cable network.,"[
   {
     ""risk"": ""Extreme weather conditions can damage network infrastructure"",
     ""mitigation"": ""Invest in weather-resistant materials and infrastructure for network resilience""
@@ -4504,7 +4504,7 @@
     ""mitigation"": ""Invest in energy-efficient technologies and use of renewable energy sources""
   }
 ]"
-131,50,Communication Services,5010,Telecommunication Services,501010,Diversified Telecommunication Services,50101020,Integrated Telecommunication Services,Operators of primarily fixed-line telecommunications networks and companies providing both wireless and fixed-line telecommunications services not classified elsewhere. Also includes internet service providers offering internet access to end users.,,"[
+131,50,Communication Services,5010,Telecommunication Services,501010,Diversified Telecommunication Services,50101020,Integrated Telecommunication Services,Operators of primarily fixed-line telecommunications networks and companies providing both wireless and fixed-line telecommunications services not classified elsewhere. Also includes internet service providers offering internet access to end users.,"[
   {
     ""risk"": ""Extreme weather events causing infrastructure damage"",
     ""mitigation"": ""Invest in resilient infrastructure and backup systems""
@@ -4542,7 +4542,7 @@
     ""mitigation"": ""Establish backup power supplies and redundancies to minimize downtime""
   }
 ]"
-132,50,Communication Services,5010,Telecommunication Services,501020,Wireless Telecommunication Services,50102010,Wireless Telecommunication Services,Providers of primarily cellular or wireless telecommunication services.,,"[
+132,50,Communication Services,5010,Telecommunication Services,501020,Wireless Telecommunication Services,50102010,Wireless Telecommunication Services,Providers of primarily cellular or wireless telecommunication services.,"[
   {
     ""risk"": ""Extreme Weather Events"",
     ""mitigation"": ""Investing in durable infrastructure to withstand natural disasters and implementing emergency response plans""
@@ -4572,7 +4572,7 @@
     ""mitigation"": ""Investing in renewable energy sources and enhancing energy efficiency in operations""
   }
 ]"
-133,50,Communication Services,5020,Media & Entertainment,502010,Media,50201010,Advertising,"Companies providing advertising, marketing or public relations services.",,"[
+133,50,Communication Services,5020,Media & Entertainment,502010,Media,50201010,Advertising,"Companies providing advertising, marketing or public relations services.","[
 {
 ""risk"": ""Increased operational costs due to unpredictable weather patterns"",
 ""mitigation"": ""Invest in data insights and tools for anticipating weather changes and adjusting operation accordingly""
@@ -4606,7 +4606,7 @@
 ""mitigation"": ""Invest in employer branding that highlights company's commitment to tackling climate change and promoting sustainability""
 }
 ]"
-134,50,Communication Services,5020,Media & Entertainment,502010,Media,50201020,Broadcasting,"Owners and operators of television or radio broadcasting systems, including programming. Includes radio and television broadcasting, radio networks, and radio stations.",,"[
+134,50,Communication Services,5020,Media & Entertainment,502010,Media,50201020,Broadcasting,"Owners and operators of television or radio broadcasting systems, including programming. Includes radio and television broadcasting, radio networks, and radio stations.","[
 {
 ""risk"": ""Extreme weather events affecting physical infrastructure"",
 ""mitigation"": ""Invest in adaptive infrastructure, such as flood defenses, and disaster recovery plans to minimize disruption.""
@@ -4648,7 +4648,7 @@
 ""mitigation"": ""Proactively manage risks to maintain insurability.""
 }
 ]"
-135,50,Communication Services,5020,Media & Entertainment,502010,Media,50201030,Cable & Satellite,Providers of cable or satellite television services. Includes cable networks and program distribution.,,"[
+135,50,Communication Services,5020,Media & Entertainment,502010,Media,50201030,Cable & Satellite,Providers of cable or satellite television services. Includes cable networks and program distribution.,"[
   {
     ""risk"": ""Disruption of signal transmission due to severe weather events"",
     ""mitigation"": ""Investing in advanced weather-resistant technology and creating backup systems for transmission""
@@ -4682,7 +4682,7 @@
     ""mitigation"": ""Creating contingency plans and diversify supply chain to avoid single source dependency""
   }
 ]"
-136,50,Communication Services,5020,Media & Entertainment,502010,Media,50201040,Publishing,"Publishers of newspapers, magazines and books in print or electronic formats.",,"[
+136,50,Communication Services,5020,Media & Entertainment,502010,Media,50201040,Publishing,"Publishers of newspapers, magazines and books in print or electronic formats.","[
   {
     ""risk"": ""Extreme weather events can disrupt physical distribution networks"",
     ""mitigation"": ""Developing robust contingency plans, diversifying supply chain and distribution networks""
@@ -4712,7 +4712,7 @@
     ""mitigation"": ""Implement low-carbon technologies and practices, and transparency in carbon disclosure""
   }
 ]"
-137,50,Communication Services,5020,Media & Entertainment,502020,Entertainment,50202010,Movies & Entertainment,"Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams. Also includes companies offering and/or producing entertainment content streamed online.",,"[
+137,50,Communication Services,5020,Media & Entertainment,502020,Entertainment,50202010,Movies & Entertainment,"Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams. Also includes companies offering and/or producing entertainment content streamed online.","[
   {
     ""risk"": ""Extreme weather events resulting in physical damage to production venues and equipment"",
     ""mitigation"": ""Investing in insurance coverage and risk management schemes that protect assets from extreme weather events""
@@ -4746,7 +4746,7 @@
     ""mitigation"": ""Building a resilient and diverse supply chain, including local sourcing to reduce environmental footprint""
   }
 ]"
-138,50,Communication Services,5020,Media & Entertainment,502020,Entertainment,50202020,Interactive Home Entertainment,"Producers of interactive gaming products, including mobile gaming applications. Also includes educational software used primarily in the home. Excludes online gambling companies classified in the Casinos & Gaming Sub-Industry.",,"[
+138,50,Communication Services,5020,Media & Entertainment,502020,Entertainment,50202020,Interactive Home Entertainment,"Producers of interactive gaming products, including mobile gaming applications. Also includes educational software used primarily in the home. Excludes online gambling companies classified in the Casinos & Gaming Sub-Industry.","[
   {
     ""risk"": ""Operational disruption due to extreme weather events"",
     ""mitigation"": ""Implementing a robust disaster recovery and business continuity plan""
@@ -4780,7 +4780,7 @@
     ""mitigation"": ""Flexible remote work policies and adequate health care options for employees""
   }
 ]"
-139,50,Communication Services,5020,Media & Entertainment,502030,Interactive Media & Services,50203010,Interactive Media & Services,"Companies engaging in content and information creation or distribution through proprietary platforms, where revenues are derived primarily through pay-per-click advertisements. Includes search engines, social media and networking platforms, online classifieds, and online review companies. Excludes companies operating online marketplaces classified in Internet & Direct Marketing Retail.",,"[
+139,50,Communication Services,5020,Media & Entertainment,502030,Interactive Media & Services,50203010,Interactive Media & Services,"Companies engaging in content and information creation or distribution through proprietary platforms, where revenues are derived primarily through pay-per-click advertisements. Includes search engines, social media and networking platforms, online classifieds, and online review companies. Excludes companies operating online marketplaces classified in Internet & Direct Marketing Retail.","[
   {
     ""risk"": ""Increased operational costs due to the necessity of energy-efficient data centers"",
     ""mitigation"": ""Investing in renewable energy sources and optimizing energy usage through innovative technology""
@@ -4806,7 +4806,7 @@
     ""mitigation"": ""Increasing platform resilience and providing support systems for affected users""
   }
 ]"
-140,55,Utilities,5510,Utilities,551010,Electric Utilities,55101010,Electric Utilities,Companies that produce or distribute electricity. Includes both nuclear and non-nuclear facilities.,,"[
+140,55,Utilities,5510,Utilities,551010,Electric Utilities,55101010,Electric Utilities,Companies that produce or distribute electricity. Includes both nuclear and non-nuclear facilities.,"[
     {
         ""risk"": ""Impact on hydroelectricity generation due to changes in precipitation patterns"",
         ""mitigation"": ""Diversifying the energy mix by investing in other renewable sources like solar, wind, nuclear, etc.""
@@ -4840,7 +4840,7 @@
         ""mitigation"": ""Earning social license through transparent practices, strong community engagement and investment in renewable energy technologies""
     }
 ]"
-141,55,Utilities,5510,Utilities,551020,Gas Utilities,55102010,Gas Utilities,"Companies whose main charter is to distribute and transmit natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in the Oil & Gas Exploration & Production Sub-Industry. Also excludes companies engaged in the storage and/or transportation of oil, gas, and/or refined products classified in the Oil & Gas Storage & Transportation Sub-Industry.",,"[
+141,55,Utilities,5510,Utilities,551020,Gas Utilities,55102010,Gas Utilities,"Companies whose main charter is to distribute and transmit natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in the Oil & Gas Exploration & Production Sub-Industry. Also excludes companies engaged in the storage and/or transportation of oil, gas, and/or refined products classified in the Oil & Gas Storage & Transportation Sub-Industry.","[
   {
     ""risk"": ""Extreme weather events disrupting supply and distribution channels"",
     ""mitigation"": ""Implementing risk assessment and contingency planning strategies""
@@ -4874,7 +4874,7 @@
     ""mitigation"": ""Conducting regular equipment maintenance and implementing robust monitoring systems""
   }
 ]"
-142,55,Utilities,5510,Utilities,551030,Multi-Utilities,55103010,Multi-Utilities,"Utility companies with significantly diversified activities in addition to core Electric Utility, Gas Utility and/or Water Utility operations.",,"[
+142,55,Utilities,5510,Utilities,551030,Multi-Utilities,55103010,Multi-Utilities,"Utility companies with significantly diversified activities in addition to core Electric Utility, Gas Utility and/or Water Utility operations.","[
   {
     ""risk"": ""Rising temperatures causing increased energy demand"",
     ""mitigation"": ""Invest in energy efficient systems and renewable energy sources""
@@ -4916,7 +4916,7 @@
     ""mitigation"": ""Maintain compliance with all environment and climate-related regulations, actively engage with communities and stakeholders on climate impact mitigation strategies""
   }
 ]"
-143,55,Utilities,5510,Utilities,551040,Water Utilities,55104010,Water Utilities,Companies that purchase and redistribute water to the end-consumer. Includes large-scale water treatment systems.,,"[
+143,55,Utilities,5510,Utilities,551040,Water Utilities,55104010,Water Utilities,Companies that purchase and redistribute water to the end-consumer. Includes large-scale water treatment systems.,"[
   {
     ""risk"": ""Risk of pollution and water contamination"",
     ""mitigation"": ""Implement robust water treatment methods, regular testing and filtration processes""
@@ -4950,7 +4950,7 @@
     ""mitigation"": ""Invest in advanced water treatment technologies, constant monitoring of water quality""
   }
 ]"
-144,55,Utilities,5510,Utilities,551050,Independent Power and Renewable Electricity Producers,55105010,Independent Power Producers & Energy Traders,"Companies that operate as Independent Power Producers (IPPs), Gas & Power Marketing & Trading Specialists and/or Integrated Energy Merchants. Excludes producers of electricity using renewable sources, such as solar power, hydropower, and wind power. Also excludes electric transmission companies and utility distribution companies classified in the Electric Utilities Sub-Industry.",,"[
+144,55,Utilities,5510,Utilities,551050,Independent Power and Renewable Electricity Producers,55105010,Independent Power Producers & Energy Traders,"Companies that operate as Independent Power Producers (IPPs), Gas & Power Marketing & Trading Specialists and/or Integrated Energy Merchants. Excludes producers of electricity using renewable sources, such as solar power, hydropower, and wind power. Also excludes electric transmission companies and utility distribution companies classified in the Electric Utilities Sub-Industry.","[
     {""risk"":""Increase in fuel costs due to climate change regulations"", ""mitigation"":""Investing in cleaner, cost-efficient fuels or technologies and processes for carbon capture and storage""},
     {""risk"":""Stricter emissions regulations or carbon taxes"", ""mitigation"":""Efficient fuel use, carbon capture and storage technologies, participation in carbon markets""},
     {""risk"":""Risks from extreme weather events causing operational disruptions"", ""mitigation"":""Comprehensive disaster recovery and business continuity planning, insurances, investment in resilient infrastructure""},
@@ -4959,7 +4959,7 @@
     {""risk"":""Reputation risks due to perceived lack of action on climate change"", ""mitigation"":""Transparent communication about company's actions towards reducing its environmental impact, engaging with stakeholders, implementing corporate social responsibility initiatives""},
     {""risk"":""Potential loss of investment due to fossil fuel divestment movement"", ""mitigation"":""Diversification of energy portfolio to include cleaner fuels, transparency about company's environmental impact and actions towards reducing it""}
 ]"
-145,55,Utilities,5510,Utilities,551050,Independent Power and Renewable Electricity Producers,55105020,Renewable Electricity,"Companies that engage in the generation and distribution of electricity using renewable sources, including, but not limited to, companies that produce electricity using biomass, geothermal energy, solar energy, hydropower, and wind power. Excludes companies manufacturing capital equipment used to generate electricity using renewable sources, such as manufacturers of solar power systems, installers of photovoltaic cells, and companies involved in the provision of technology, components, and services mainly to this market.",,"[
+145,55,Utilities,5510,Utilities,551050,Independent Power and Renewable Electricity Producers,55105020,Renewable Electricity,"Companies that engage in the generation and distribution of electricity using renewable sources, including, but not limited to, companies that produce electricity using biomass, geothermal energy, solar energy, hydropower, and wind power. Excludes companies manufacturing capital equipment used to generate electricity using renewable sources, such as manufacturers of solar power systems, installers of photovoltaic cells, and companies involved in the provision of technology, components, and services mainly to this market.","[
   {
     ""risk"": ""Fluctuation in weather patterns that might affect the generation of renewable power"",
     ""mitigation"": ""Diversification of energy generation methods to guarantee constant supply in different weather conditions""
@@ -4997,7 +4997,7 @@
     ""mitigation"": ""Coordinate with local governments and energy distributors to ensure adequate infrastructure is in place""
   }
 ]"
-146,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101010,Diversified REITs,A company or Trust with significantly diversified operations across two or more property types.,,"[
+146,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101010,Diversified REITs,A company or Trust with significantly diversified operations across two or more property types.,"[
   {
    ""risk"": ""Exposure to extreme weather events"", 
    ""mitigation"": ""Implement disaster risk reduction strategies and emergency management plans""
@@ -5031,7 +5031,7 @@
    ""mitigation"": ""Consider physical climate risks in location and design decisions""
   }
 ]"
-147,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101020,Industrial REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties. Includes companies operating industrial warehouses and distribution properties.",,"[
+147,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101020,Industrial REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties. Includes companies operating industrial warehouses and distribution properties.","[
     {
         ""risk"": ""Extreme Weather Events"",
         ""mitigation"": ""Ensure buildings and infrastructure are designed to withstand severe conditions; have a disaster recovery plan in place""
@@ -5065,7 +5065,7 @@
         ""mitigation"": ""Stay compliant with all environmental laws and regulations; engage proactively with regulators""
     }
 ]"
-148,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101030,Hotel & Resort REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of hotel and resort properties.",,"[
+148,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101030,Hotel & Resort REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of hotel and resort properties.","[
   {
     ""risk"": ""Increase in extreme weather events causing higher operational costs"",
     ""mitigation"": ""Invest in infrastructure improvements to make properties more resilient to extreme weather events""
@@ -5095,7 +5095,7 @@
     ""mitigation"": ""Implement staff training on heat-related illnesses and ensure appropriate cooling systems are in place at properties""
   }
 ]"
-149,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101040,Office REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties.",,"[
+149,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101040,Office REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties.","[
     {
         ""risk"": ""Increased occurrence of natural disasters"",
         ""mitigation"": ""Invest in infrastructure resilience, take out insurance policies against natural disasters, develop thorough disaster recovery and business continuity plans""
@@ -5125,7 +5125,7 @@
         ""mitigation"": ""Adopt risk-reduction measures, negotiate terms with insurance providers""
     }
 ]"
-150,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101050,Health Care REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties serving the health care industry, including hospitals, nursing homes, and assisted living properties.",,"[
+150,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101050,Health Care REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties serving the health care industry, including hospitals, nursing homes, and assisted living properties.","[
   {
     ""risk"": ""Extreme weather conditions can damage properties"",
     ""mitigation"": ""Invest in weather-resistant structures and materials to enhance the resilience of the properties""
@@ -5167,7 +5167,7 @@
     ""mitigation"": ""Ensure properties are not located in flood-prone areas, and develop a flood mitigation strategy""
   }
 ]"
-151,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101060,Residential REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of residential properties including multifamily homes, apartments, manufactured homes and student housing properties",,"[
+151,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101060,Residential REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of residential properties including multifamily homes, apartments, manufactured homes and student housing properties","[
     {
         ""risk"": ""Damage to properties due to extreme weather events"", 
         ""mitigation"": ""Invest in weatherproof building materials and risk reduction infrastructure""
@@ -5201,7 +5201,7 @@
         ""mitigation"": ""Invest in properties outside of high-risk coastal areas""
     }
 ]"
-152,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101070,Retail REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers.",,"[
+152,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101070,Retail REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers.","[
     {
         ""risk"": ""Rise in extreme weather events damaging property"",
         ""mitigation"": ""Invest in infrastructure reinforcement, adequate insurance coverage""
@@ -5239,7 +5239,7 @@
         ""mitigation"": ""Develop robust disaster recovery plans, consider partnering with other businesses for shared recovery resources""
     }
 ]"
-153,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101080,Specialized REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere. Includes trusts that operate and invest in storage properties. It also includes REITs that do not generate a majority of their revenues and income from real estate rental and leasing operations.",,"[
+153,60,Real Estate,6010,Real Estate,601010,Equity Real Estate Investment Trusts (REITs),60101080,Specialized REITs,"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere. Includes trusts that operate and invest in storage properties. It also includes REITs that do not generate a majority of their revenues and income from real estate rental and leasing operations.","[
   {
     ""risk"": ""Extreme Weather Events"",
     ""mitigation"": ""Invest in infrastructure resilience, such as weather-resistant construction materials and renewable energy backup systems.""
@@ -5277,7 +5277,7 @@
     ""mitigation"": ""Invest in eco-friendly properties and highlight green features to attract and retain tenants.""
   }
 ]"
-154,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102010,Diversified Real Estate Activities,"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line.",,"[
+154,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102010,Diversified Real Estate Activities,"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line.","[
   {
     ""risk"": ""Increased frequency of severe weather events damaging properties"",
     ""mitigation"": ""Invest in insurance and resilient infrastructure""
@@ -5319,7 +5319,7 @@
     ""mitigation"": ""Proactively address climate change-related risks and disclose actions""
   }
 ]"
-155,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102020,Real Estate Operating Companies,Companies engaged in operating real estate properties for the purpose of leasing & management.,,"[
+155,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102020,Real Estate Operating Companies,Companies engaged in operating real estate properties for the purpose of leasing & management.,"[
   {
     ""risk"": ""Increases in extreme weather events could damage property"",
     ""mitigation"": ""Invest in infrastructure improvements to withstand extreme weather, and proper insurance coverage.""
@@ -5349,7 +5349,7 @@
     ""mitigation"": ""Continuous monitoring of climate trends and adjust investment strategies accordingly.""
   }
 ]"
-156,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102030,Real Estate Development,Companies that develop real estate and sell the properties after development. Excludes companies classified in the Homebuilding Sub-Industry.,,"[
+156,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102030,Real Estate Development,Companies that develop real estate and sell the properties after development. Excludes companies classified in the Homebuilding Sub-Industry.,"[
   {
     ""risk"": ""Physical risk due to extreme weather events"",
     ""mitigation"": ""Investing in resilient infrastructure and insurance against potential damages""
@@ -5383,7 +5383,7 @@
     ""mitigation"": ""Pivoting business models to align with a low-carbon economy""
   }
 ]"
-157,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102040,Real Estate Services,"Real estate service providers such as real estate agents, brokers & real estate appraisers.",,"[
+157,60,Real Estate,6010,Real Estate,601020,Real Estate Management & Development,60102040,Real Estate Services,"Real estate service providers such as real estate agents, brokers & real estate appraisers.","[
   {
     ""risk"": ""Increased insurance cost due to extreme weather events"",
     ""mitigation"": ""Developing and adopting robust disaster management strategies""
