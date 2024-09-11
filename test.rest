@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/generate HTTP/1.1
+content-type: application/json
+
+{
+    "location": {
+        "city_name":"New York",
+        "country_name":"United States"
+    },
+    "industry": "Refrigeration and Air Conditioning",
+    "secret":"magic"
+}

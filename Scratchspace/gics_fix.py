@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+from pydantic import BaseModel
 
 def gics_hydrate():
     df = pd.read_csv('Gics_modified_gpt4.csv')

@@ -1,0 +1,9 @@
+python-dotenv
+haystack-ai
+pandas
+flask
+requests
+haystack-experimental
+sentence-transformers
+cohere-haystack
+colorama

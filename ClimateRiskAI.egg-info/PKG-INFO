@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ClimateRiskAI
+Version: 0.1.0
+Summary: Climate Risk AI API package for TheWorldClimate project
+Home-page: https://github.com/biotic-labor/ClimateRiskAI
+Author: Chris Nelson
+Author-email: chris@falseretro.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+# ClimateRiskAI
