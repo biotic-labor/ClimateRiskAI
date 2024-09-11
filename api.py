@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, make_response
 import service.pipeline_service as pipeline_service
 import subprocess
 import jsonpickle
-
+import os
 app = Flask(__name__)
 
 @app.route('/generate', methods=['POST'])
@@ -23,4 +23,4 @@ def generate():
     return make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)))
