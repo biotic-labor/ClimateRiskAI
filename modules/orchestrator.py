@@ -15,8 +15,6 @@ def orchestrate(location, query_type, rolling_average):
 
     year = 2024
     rolling_average_year = 2024-rolling_average
-    # Retrieve the historical data
-    print(query_type)
     # Call methodologies
     if(query_type == 'tempmax'):
         print('tempmax')
@@ -45,7 +43,8 @@ def orchestrate(location, query_type, rolling_average):
     # process_historical(location, query_type, historical_df)
     # process_combined(combined_output_location, historical_df, projected_df, rolling_average, query_type)
     # webapp_data_copier.copy(location, combined_output_location, query_type)
-    return process_projected(location, query_type, projected_df)
+    results = process_projected(location, query_type, projected_df)
+    return results
 
 # def process_historical(location, query_type, historical_df):
 #     historical_output_location = '../'+location['city_name']+'/Processed/historical_'+query_type
