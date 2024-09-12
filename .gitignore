@@ -6,3 +6,4 @@
 __pycache__
 *__pycache__*
 mypackage.egg-info
+deploytest.rest

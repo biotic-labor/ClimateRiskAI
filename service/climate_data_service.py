@@ -5,10 +5,6 @@ import models.location as Location
 from models.querytype import QueryType
 from os.path import exists
 def retrieve_climate_data(location: Location, query_type: QueryType) -> pd.DataFrame:
-    #TODO remove this once we have it all working
-    if(exists('data.csv')):
-        print('using mock data')
-        return pd.read_csv('data.csv')
     print('fetching data')
     api_key = os.getenv("CLIMATE_SERVICE_API_KEY")
     latlong = geo.get_lat_long(location)
@@ -26,5 +22,4 @@ def retrieve_climate_data(location: Location, query_type: QueryType) -> pd.DataF
     url = f'https://beta.climatedataservice.com/v6/series/csv{url_dictionary[query_type.name]}'
     df = pd.read_csv(url, skiprows=12)
     df.drop(columns=["latitude", "longitude"], inplace=True, axis=1)
-    df.to_csv('data.csv')
     return df
