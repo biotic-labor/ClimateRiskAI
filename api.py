@@ -22,10 +22,8 @@ def generate():
     industry = data.get("industry")
     classified_industry = pipeline_service.execute_industry_classification_pipeline(industry)
     location_results = pipeline_service.execute_location_pipeline(location, classified_industry['subindustry'])
-    json_location_results = jsonpickle.encode(location_results, unpicklable=False)
-
     risk_results = pipeline_service.execute_risk_mitigation_pipeline(classified_industry)
-    combined_results = {"locations_results":json_location_results, "risk_results":risk_results}
+    combined_results = {"locations_results":location_results, "risk_results":risk_results}
 
     return make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
 
