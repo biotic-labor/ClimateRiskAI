@@ -122,3 +122,4 @@ watchdog==5.0.2
 wcwidth==0.2.13
 Werkzeug==2.2.2
 wkhtmltopdf==0.2
+flask-cors==5.0.0

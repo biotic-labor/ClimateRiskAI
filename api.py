@@ -3,7 +3,12 @@ import service.pipeline_service as pipeline_service
 import subprocess
 import jsonpickle
 import os
+from flask import Flask
+from flask_cors import CORS
+
+
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/generate', methods=['POST'])
 def generate():
