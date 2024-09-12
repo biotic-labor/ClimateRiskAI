@@ -5,7 +5,7 @@ import jsonpickle
 import os
 from flask import Flask
 from flask_cors import CORS
-
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -14,8 +14,10 @@ CORS(app)
 def generate():
     data = request.get_json()
     secret = data.get("secret")
+    print(secret)
     if(secret != "magic"):
         return make_response(jsonify({"error": "Invalid secret"}), 401)
+    print('passed')
     location = data.get("location")
     industry = data.get("industry")
     classified_industry = pipeline_service.execute_industry_classification_pipeline(industry)
