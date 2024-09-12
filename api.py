@@ -28,8 +28,8 @@ def generate():
     location_results = pipeline_service.execute_location_pipeline(location, classified_industry['subindustry'])
     risk_results = pipeline_service.execute_risk_mitigation_pipeline(classified_industry)
     combined_results = {"industry_info":classified_industry, "locations_results":location_results, "risk_results":risk_results}
-    with open('mock_data.json', 'w') as f:
-        json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
+    # with open('mock_data.json', 'w') as f:
+    #     json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
     return make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
 
 if __name__ == '__main__':
