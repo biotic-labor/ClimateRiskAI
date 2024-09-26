@@ -6,6 +6,8 @@ import service.geohelper as geo
 import service.climate_data_service as cds
 from pipelines.climate_data_summarizer_pipeline import summarize_climate_data
 from pipelines.industry_classifier_pipeline import classify_industry
+from pipelines.industry_summary_pipeline import summarize_industry
+from pipelines.industry_opportunities_pipeline import generate_opportunities
 import modules.orchestrator as orchestrator
 import models.location as Location
 from models.querytype import QueryType
@@ -45,7 +47,7 @@ def execute_location_pipeline(location:Location, classified_industry:str):
     return response
 
 def execute_industry_classification_pipeline(industry:str):
-    return classify_industry(industry);
+    return classify_industry(industry)
 
 def execute_risk_mitigation_pipeline(industry:object):
     subindustry_id = int(industry['subindustry_id'])
@@ -54,4 +56,11 @@ def execute_risk_mitigation_pipeline(industry:object):
     row = GicsData.loc[(GicsData['SubIndustryId'] == subindustry_id) | (GicsData['IndustryId'] == subindustry_id)]
     if row["ClimateRiskMitigation"].empty:
         return [{"risk": "No risks found for industry", "mitigation": "No mitigation found for industry"}]
-    return row['ClimateRiskMitigation'].values[0]
+    combined = execute_opportunities_pipeline(industry['subindustry'], row['ClimateRiskMitigation'].values[0])
+    return combined
+
+def execute_industry_summary_pipeline(sub_industry:str, location:Location):
+    return summarize_industry(sub_industry, location['city_name'], location['country_name'])
+
+def execute_opportunities_pipeline(sub_industry:str, risk_results:object):
+    return generate_opportunities(sub_industry, risk_results)

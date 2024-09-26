@@ -3,9 +3,9 @@ content-type: application/json
 
 {
     "location": {
-        "city_name":"New York",
+        "city_name":"Dallas",
         "country_name":"United States"
     },
-    "industry": "Refrigeration and Air Conditioning",
+    "industry": "Home HVAC Services",
     "secret":"magic"
 }
