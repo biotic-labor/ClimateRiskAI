@@ -6,8 +6,8 @@ import json
 
 load_env()
 
-def generate_opportunities(sub_industry:str, risk_results:dict):
-    prompt_template="""List 1 to 3 tangible ways someone could {{mitigation}} in the industry of {{sub_industry}}. Provide your response in the JSON format [string,string,string]"""
+def generate_impact_and_opportunities(sub_industry:str, risk_results:dict):
+    prompt_template="""Provide an example of an impact that may occur as a result of {{risk}} in the industry of {{sub_industry}}, also List 3 tangible ways a business owner could {{mitigation}} in the industry of {{sub_industry}}. Provide your response in the JSON format impact:string, opportunities:[string,string,string]"""
     
     prompt = PromptBuilder(template=prompt_template)
     llm = OpenAIGenerator()
@@ -21,10 +21,11 @@ def generate_opportunities(sub_industry:str, risk_results:dict):
     risks = json.loads(risk_results)
     for risk in risks:
         output = climate_suggester.run({"prompt": {"sub_industry":sub_industry,"mitigation": risk['mitigation']}})
-        opportunities = json.loads(output["llm"]["replies"][0])
+        impact_and_opportunities = json.loads(output["llm"]["replies"][0])
         response.append({
             'risk':risk['risk'],
             'mitigation':risk['mitigation'],
-            'opportunities':opportunities
+            'impact':impact_and_opportunities['impact'],
+            'opportunities':impact_and_opportunities['opportunities']
         })
     return response

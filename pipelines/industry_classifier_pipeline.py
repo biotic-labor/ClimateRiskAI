@@ -50,6 +50,5 @@ def classify_industry(industry_info:str):
             "prompt": {"query": industry_question},
         }
     )
-    # print(industries_result["generator"]["replies"][0])
     industry = json.loads(industries_result["generator"]["replies"][0])
     return industry

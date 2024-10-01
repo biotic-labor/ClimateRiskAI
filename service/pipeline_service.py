@@ -7,7 +7,7 @@ import service.climate_data_service as cds
 from pipelines.climate_data_summarizer_pipeline import summarize_climate_data
 from pipelines.industry_classifier_pipeline import classify_industry
 from pipelines.industry_summary_pipeline import summarize_industry
-from pipelines.industry_opportunities_pipeline import generate_opportunities
+from pipelines.industry_opportunities_pipeline import generate_impact_and_opportunities
 import modules.orchestrator as orchestrator
 import models.location as Location
 from models.querytype import QueryType
@@ -63,4 +63,4 @@ def execute_industry_summary_pipeline(sub_industry:str, location:Location):
     return summarize_industry(sub_industry, location['city_name'], location['country_name'])
 
 def execute_opportunities_pipeline(sub_industry:str, risk_results:object):
-    return generate_opportunities(sub_industry, risk_results)
+    return generate_impact_and_opportunities(sub_industry, risk_results)
