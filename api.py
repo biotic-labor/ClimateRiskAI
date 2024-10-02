@@ -31,7 +31,14 @@ def generate():
     combined_results = {"industry_info":industry_results, "industry_summary":industry_summary, "locations_results":location_results, "risk_results":risk_results}
     with open('mock_data.json', 'w') as f:
         json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
-    return make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
+    response =  make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
+    print(response)
+    return response
+
+@app.route('/classify', methods=['GET'])
+def classify():
+    industry = request.args.get('industry')
+    return make_response(jsonify(pipeline_service.execute_industry_classification_pipeline(industry)), 200)
 
 if __name__ == '__main__':
     app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)))
