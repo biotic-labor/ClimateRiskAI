@@ -28,11 +28,11 @@ class Response:
 
 
 query_types = [
-    # QueryType("num_days_above_90", "Number of days above 90 degrees farhenheit", "bar"),
-    # QueryType("num_days_above_100", "Number of days above 100 degrees farhenheit", "bar"),
-    # QueryType("precip", "Cumulative Annual precipitation", "line"),
-    # QueryType("tempmax", "Maximum Temperature", "line"),
-    # QueryType("tempmin", "Minimum Temperature", "line"),
+    QueryType("num_days_above_90", "Number of days above 90 degrees farhenheit", "bar"),
+    QueryType("num_days_above_100", "Number of days above 100 degrees farhenheit", "bar"),
+    QueryType("precip", "Cumulative Annual precipitation", "line"),
+    QueryType("tempmax", "Maximum Temperature", "line"),
+    QueryType("tempmin", "Minimum Temperature", "line"),
     QueryType("dew", "Dew Point", "line"),
 ]
 
