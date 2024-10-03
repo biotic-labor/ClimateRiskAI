@@ -37,7 +37,7 @@ def orchestrate(location, query_type, rolling_average):
         projected_df = projected_precip.calculate(location, query_type, rolling_average_year, rolling_average)
     elif(query_type == 'dew'):
         # historical_df = hist_dewpoint.calculate(raw_historical_df, year)
-        projected_df = projected_dewpoint.calculate(location, query_type, year)
+        projected_df = projected_dewpoint.calculate(location, query_type, rolling_average_year, rolling_average)
 
     # # Save the processed data
     # process_historical(location, query_type, historical_df)
