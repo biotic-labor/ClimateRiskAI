@@ -15,7 +15,7 @@ def summarize_industry(sub_industry:str, city_name:str, country_name:str):
                 Provide your response in the JSON format industry_summary: string"""
     
     prompt = PromptBuilder(template=prompt_template)
-    llm = OpenAIGenerator(model="gpt-4o", generation_kwargs={"response_format":{ "type": "json_object" }})
+    llm = OpenAIGenerator(model="gpt-4o-mini", generation_kwargs={"response_format":{ "type": "json_object" }})
 
     climate_suggester = Pipeline()
     climate_suggester.add_component("prompt", prompt)

@@ -19,7 +19,7 @@ def generate_impact_and_opportunities(sub_industry:str, risk_results:dict):
     prompt = PromptBuilder(template=prompt_template)
 
     model_schema = ImpactAndOpportunities.model_json_schema()
-    llm = OpenAIGenerator(model="gpt-4o", generation_kwargs={"response_format":{ "type": "json_object" }})
+    llm = OpenAIGenerator(model="gpt-4o-mini", generation_kwargs={"response_format":{ "type": "json_object" }})
 
     climate_suggester = Pipeline()
     climate_suggester.add_component("prompt", prompt)
