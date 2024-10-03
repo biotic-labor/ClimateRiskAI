@@ -18,19 +18,19 @@ def generate():
         return make_response(jsonify({"error": "Invalid secret"}), 401)
     location = data.get("location")
     industry = data.get("industry")
-    mock = data.get("mock")
-    if(mock):
-        with open('mock_data.json', 'r') as file:
-            mock_data = json.load(file)
-        print('using mock data')
-        return make_response(mock_data, 200)
+    # mock = data.get("mock")
+    # if(mock):
+    #     with open('mock_data.json', 'r') as file:
+    #         mock_data = json.load(file)
+    #     print('using mock data')
+    #     return make_response(mock_data, 200)
     industry_results = pipeline_service.execute_industry_classification_pipeline(industry)
     industry_summary = pipeline_service.execute_industry_summary_pipeline(industry, location)
     location_results = pipeline_service.execute_location_pipeline(location, industry_results['subindustry'])
     risk_results = pipeline_service.execute_risk_mitigation_pipeline(industry_results)
     combined_results = {"industry_info":industry_results, "industry_summary":industry_summary, "locations_results":location_results, "risk_results":risk_results}
-    with open('mock_data.json', 'w') as f:
-        json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
+    # with open('mock_data.json', 'w') as f:
+    #     json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
     response =  make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
     print(response)
     return response
