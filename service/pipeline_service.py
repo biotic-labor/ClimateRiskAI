@@ -55,7 +55,8 @@ def execute_risk_mitigation_pipeline(industry:object):
     print(GicsData.loc[(GicsData['SubIndustryId'] == subindustry_id) | (GicsData['IndustryId'] == subindustry_id)])
     row = GicsData.loc[(GicsData['SubIndustryId'] == subindustry_id) | (GicsData['IndustryId'] == subindustry_id)]
     if row["ClimateRiskMitigation"].empty:
-        return [{"risk": "No risks found for industry", "mitigation": "No mitigation found for industry"}]
+        print("No risks found for industry - "+industry['subindustry']+' - '+industry['subindustry_id'])
+        return [{"risk": "No risks found for industry", "impact":"No impact found for industry", "mitigation": "No mitigation found for industry", "opportunities": []}]
     combined = execute_opportunities_pipeline(industry['subindustry'], row['ClimateRiskMitigation'].values[0])
     return combined
 
