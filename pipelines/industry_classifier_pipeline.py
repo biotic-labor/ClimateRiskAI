@@ -30,7 +30,7 @@ def classify_industry(industry_info:str):
     query_embedder = CohereTextEmbedder(model="embed-english-v3.0")
     retriever = PineconeEmbeddingRetriever(document_store=document_store)
     prompt_builder = PromptBuilder(template=prompt)
-    generator = OpenAIGenerator()
+    generator = OpenAIGenerator(model="gpt-4o", generation_kwargs={"response_format":{ "type": "json_object" }})
     query_pipeline = Pipeline()
     query_pipeline.add_component("query_embedder", query_embedder)
     query_pipeline.add_component("retriever", retriever)
@@ -50,5 +50,7 @@ def classify_industry(industry_info:str):
             "prompt": {"query": industry_question},
         }
     )
+    
     industry = json.loads(industries_result["generator"]["replies"][0])
+    print(industry)
     return industry

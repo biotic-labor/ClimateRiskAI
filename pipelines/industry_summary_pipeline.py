@@ -2,6 +2,7 @@ from helper import load_env
 from haystack import Pipeline
 from haystack.components.builders import PromptBuilder
 from haystack.components.generators import OpenAIGenerator
+
 import json
 
 load_env()
@@ -14,7 +15,7 @@ def summarize_industry(sub_industry:str, city_name:str, country_name:str):
                 Provide your response in the JSON format industry_summary: string"""
     
     prompt = PromptBuilder(template=prompt_template)
-    llm = OpenAIGenerator()
+    llm = OpenAIGenerator(model="gpt-4o", generation_kwargs={"response_format":{ "type": "json_object" }})
 
     climate_suggester = Pipeline()
     climate_suggester.add_component("prompt", prompt)

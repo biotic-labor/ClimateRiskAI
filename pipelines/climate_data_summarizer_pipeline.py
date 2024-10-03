@@ -20,7 +20,7 @@ def summarize_climate_data(dataframe:pd.DataFrame, query_type:QueryType, industr
                 {{{{dataframe}}}}"""
     
     prompt = PromptBuilder(template=template)
-    llm = OpenAIGenerator()
+    llm = OpenAIGenerator(model="gpt-4o", generation_kwargs={"response_format":{ "type": "json_object" }})
 
     climate_suggester = Pipeline()
     climate_suggester.add_component("prompt", prompt)

@@ -6,6 +6,6 @@ content-type: application/json
         "city_name":"Dallas",
         "country_name":"United States"
     },
-    "industry": "Home HVAC Services",
+    "industry": "Fishing Boat Charter",
     "secret":"magic"
 }
