@@ -22,7 +22,7 @@ def generate():
     company_name = data.get("company_name")
     existing_data = s3_service.download_company_report_from_s3(company_name, location, industry)
     if(existing_data):
-        return make_response(jsonify(existing_data), 200)
+        return make_response(existing_data, 200)
     # mock = data.get("mock")
     # if(mock):
     #     with open('mock_data.json', 'r') as file:

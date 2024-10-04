@@ -8,5 +8,5 @@ content-type: application/json
     },
     "industry": "Fishing Boat Charter",
     "secret":"magic",
-    "company_name":"Company 2"
+    "company_name":"Test Company 2"
 }
