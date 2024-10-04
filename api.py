@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request, make_response
 import service.pipeline_service as pipeline_service
+import service.s3_service as s3_service
 import subprocess
 import jsonpickle
 import os
@@ -18,6 +19,10 @@ def generate():
         return make_response(jsonify({"error": "Invalid secret"}), 401)
     location = data.get("location")
     industry = data.get("industry")
+    company_name = data.get("company_name")
+    existing_data = s3_service.download_company_report_from_s3(company_name, location, industry)
+    if(existing_data):
+        return make_response(jsonify(existing_data), 200)
     # mock = data.get("mock")
     # if(mock):
     #     with open('mock_data.json', 'r') as file:
@@ -31,7 +36,9 @@ def generate():
     combined_results = {"industry_info":industry_results, "industry_summary":industry_summary, "locations_results":location_results, "risk_results":risk_results}
     # with open('mock_data.json', 'w') as f:
     #     json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
-    response =  make_response(jsonpickle.encode(combined_results, unpicklable=False), 200)
+    jsonData = jsonpickle.encode(combined_results, unpicklable=False)
+    s3_service.upload_company_report_to_s3(company_name, location, industry, jsonData)
+    response =  make_response(jsonData, 200)
     print(response)
     return response
 
