@@ -33,7 +33,8 @@ def generate():
     industry_summary = pipeline_service.execute_industry_summary_pipeline(industry, location)
     location_results = pipeline_service.execute_location_pipeline(location, industry_results['subindustry'])
     risk_results = pipeline_service.execute_risk_mitigation_pipeline(industry_results)
-    combined_results = {"industry_info":industry_results, "industry_summary":industry_summary, "locations_results":location_results, "risk_results":risk_results}
+    sdg_results = pipeline_service.execute_sdg_pipeline(industry_results['subindustry'])
+    combined_results = {"industry_info":industry_results, "industry_summary":industry_summary, "locations_results":location_results, "risk_results":risk_results, "sdg_results":sdg_results}
     # with open('mock_data.json', 'w') as f:
     #     json.dump(jsonpickle.encode(combined_results, unpicklable=False), f)
     jsonData = jsonpickle.encode(combined_results, unpicklable=False)

@@ -8,6 +8,7 @@ from pipelines.climate_data_summarizer_pipeline import summarize_climate_data
 from pipelines.industry_classifier_pipeline import classify_industry
 from pipelines.industry_summary_pipeline import summarize_industry
 from pipelines.industry_opportunities_pipeline import generate_impact_and_opportunities
+from pipelines.industry_sdg_pipeline import generate_industry_sdgs
 import modules.orchestrator as orchestrator
 import models.location as Location
 from models.querytype import QueryType
@@ -65,3 +66,6 @@ def execute_industry_summary_pipeline(sub_industry:str, location:Location):
 
 def execute_opportunities_pipeline(sub_industry:str, risk_results:object):
     return generate_impact_and_opportunities(sub_industry, risk_results)
+
+def execute_sdg_pipeline(sub_industry:str):
+    return generate_industry_sdgs(sub_industry)

@@ -3,10 +3,10 @@ content-type: application/json
 
 {
     "location": {
-        "city_name":"Dallas",
+        "city_name":"Minneapolis",
         "country_name":"United States"
     },
-    "industry": "Fishing Boat Charter",
+    "industry": "Copper Mining",
     "secret":"magic",
-    "company_name":"Test Company 2"
+    "company_name":"Test Company 4"
 }
